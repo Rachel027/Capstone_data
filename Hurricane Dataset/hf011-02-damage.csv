@@ -1,0 +1,1234 @@
+code,state,town,gis,f.scale
+N1635,MA,Boston city,486,2
+N1635,MA,Plymouth town,461,3
+N1638a,MA,Boston city,486,1
+N1638b,MA,Boston city,486,0
+N1638b,ME,Scarborough town,634,2
+N1646,MA,Salem city,521,2
+N1675,MA,Boston city,486,0
+N1675,MA,Lynn city,518,1
+N1675,CT,Stonington town,124,1
+N1683,CT,Stonington town,124,1
+N1698,NH,Dover city,1325,2
+N1716,MA,Boston city,486,1
+N1727,MA,Boston city,486,1
+N1727,MA,Marblehead town,522,2
+N1727,CT,New London town,142,1
+N1727,MA,Newbury town,500,1
+N1727,MA,Sudbury town,212,2
+N1727,MA,Swansea town,320,2
+N1761,MA,Boston city,486,2
+N1761,MA,Chelsea city,488,2
+N1761,MA,Dedham town,443,1
+N1761,MA,Lynn city,518,2
+N1761,RI,Newport city,1355,1
+N1761,NH,Portsmouth city,1293,0
+N1761,RI,Providence city,1360,2
+N1769,NY,Bronx borough,1639,1
+N1769,NY,Brooklyn borough,1640,1
+N1769,MA,Lynn city,518,2
+N1769,NY,Manhattan borough,1646,1
+N1769,CT,New Haven town,100,1
+N1769,NY,Queens borough,1649,1
+N1769,NY,Staten Island borough,1650,1
+N1770,MA,Boston city,486,2
+N1770,RI,Newport city,1355,2
+N1770,NH,Portsmouth city,1293,2
+N1770,MA,Salem city,521,1
+N1785,NY,Bronx borough,1639,2
+N1785,NY,Brooklyn borough,1640,2
+N1785,NY,Manhattan borough,1646,2
+N1785,NY,Queens borough,1649,2
+N1785,NY,Staten Island borough,1650,2
+N1788,MA,Ashfield town,345,2
+N1788,VT,Bennington town,1417,1
+N1788,NY,Bronx borough,1639,2
+N1788,NY,Brooklyn borough,1640,2
+N1788,MA,Conway town,346,2
+N1788,MA,Deerfield town,347,2
+N1788,VT,Dummerston town,1582,2
+N1788,NH,Hanover town,1185,1
+N1788,CT,Hartford town,41,2
+N1788,MA,Hatfield town,382,2
+N1788,MA,Lee town,420,1
+N1788,CT,Litchfield town,66,1
+N1788,NY,Manhattan borough,1646,2
+N1788,NH,Meredith town,1093,2
+N1788,NH,New Hampton town,1092,2
+N1788,CT,New Haven town,100,1
+N1788,CT,Norfolk town,58,2
+N1788,MA,Northampton city,386,2
+N1788,MA,Petersham town,253,2
+N1788,MA,Pittsfield city,408,1
+N1788,VT,Putney town,1584,2
+N1788,NY,Queens borough,1649,2
+N1788,NH,Sanbornton town,1084,2
+N1788,MA,Springfield city,372,3
+N1788,NY,Staten Island borough,1650,2
+N1788,CT,Washington town,69,1
+N1788,MA,Westminster town,289,2
+N1788,MA,Whately town,332,2
+N1788,VT,Windsor town,1611,0
+N1804,MA,Beverly city,520,1
+N1804,MA,Boston city,486,2
+N1804,MA,Cohasset town,454,1
+N1804,MA,Danvers town,510,2
+N1804,MA,Dedham town,443,2
+N1804,MA,Dighton town,316,2
+N1804,MA,Gloucester city,514,1
+N1804,MA,Lynn city,518,2
+N1804,MA,Milton town,447,3
+N1804,MA,New Bedford city,311,1
+N1804,MA,Newbury town,500,1
+N1804,MA,Newburyport city,491,1
+N1804,RI,Newport city,1355,1
+N1804,ME,Portland city,620,0
+N1804,NH,Portsmouth city,1293,1
+N1804,RI,Providence city,1360,2
+N1804,MA,Quincy city,448,2
+N1804,MA,Rehoboth town,305,1
+N1804,MA,Salem city,521,2
+N1804,MA,Taunton city,308,2
+N1806,MA,Barnstable town,174,1
+N1806,MA,Brewster town,176,0
+N1806,MA,Edgartown town,326,1
+N1815,MA,Abington town,475,3
+N1815,MA,Acton town,203,2
+N1815,NH,Amherst town,1243,2
+N1815,MA,Amherst town,388,2
+N1815,MA,Andover town,504,2
+N1815,MA,Ashburnham town,244,2
+N1815,MA,Barre town,256,2
+N1815,RI,Barrington town,1342,2
+N1815,MA,Boston city,486,2
+N1815,MA,Boxford town,508,2
+N1815,MA,Braintree town,450,2
+N1815,MA,Brewster town,176,-1
+N1815,CT,Bridgeport town,8,1
+N1815,MA,Bridgewater town,466,1
+N1815,MA,Brimfield town,360,1
+N1815,RI,Bristol town,1343,2
+N1815,NY,Bronx borough,1639,1
+N1815,MA,Brookfield town,266,2
+N1815,MA,Brookline town,442,1
+N1815,NY,Brooklyn borough,1640,1
+N1815,CT,Brooklyn town,164,1
+N1815,MA,Cambridge city,232,3
+N1815,CT,Cantebury town,166,2
+N1815,MA,Canton town,446,2
+N1815,MA,Chelsea city,488,1
+N1815,MA,Chilmark town,325,2
+N1815,NH,Concord city,1267,2
+N1815,MA,Danvers town,510,2
+N1815,MA,Dedham town,443,2
+N1815,RI,East Greenwich town,1349,1
+N1815,CT,East Haddam town,89,1
+N1815,NY,East Hampton town,1655,2
+N1815,CT,Easton town,6,2
+N1815,MA,Edgartown town,326,2
+N1815,MA,Essex town,495,2
+N1815,MA,Fairhaven town,313,1
+N1815,CT,Franklin town,130,1
+N1815,MA,Gay Head town,327,2
+N1815,MA,Gloucester city,514,2
+N1815,CT,Groton town,143,3
+N1815,ME,Hallowell city,725,1
+N1815,CT,Hartford town,41,2
+N1815,MA,Haverhill city,490,1
+N1815,MA,Hingham town,462,2
+N1815,ME,Kennebunk town,1049,0
+N1815,ME,Lebanon town,1043,2
+N1815,MA,Lexington town,221,2
+N1815,CT,Lisbon town,132,2
+N1815,RI,Little Compton town,1354,1
+N1815,CT,Lyme town,127,2
+N1815,MA,Lynn city,518,2
+N1815,NY,Manhattan borough,1646,1
+N1815,MA,Marblehead town,522,1
+N1815,MA,Middleboro town,463,1
+N1815,RI,Middletown town,1353,1
+N1815,MA,Milton town,447,2
+N1815,MA,Nantucket town,430,2
+N1815,MA,Needham town,437,2
+N1815,MA,New Bedford city,311,2
+N1815,CT,New London town,142,2
+N1815,RI,New Shoreham / Block Is.,1378,3
+N1815,MA,Newburyport city,491,2
+N1815,RI,Newport city,1355,2
+N1815,MA,Newton city,216,1
+N1815,MA,Northampton city,386,1
+N1815,CT,Norwich town,141,2
+N1815,MA,Oak Bluffs town,322,2
+N1815,MA,Petersham town,253,2
+N1815,CT,Plainville town,51,2
+N1815,MA,Plymouth town,461,1
+N1815,ME,Portland city,620,0
+N1815,NH,Portsmouth city,1293,2
+N1815,RI,Providence city,1360,3
+N1815,MA,Provincetown town,179,1
+N1815,NY,Queens borough,1649,1
+N1815,MA,Quincy city,448,2
+N1815,MA,Reading town,240,2
+N1815,MA,Rochester town,470,1
+N1815,MA,Rowley town,502,2
+N1815,ME,Saco city,1055,0
+N1815,MA,Salem city,521,2
+N1815,MA,Salisbury town,492,2
+N1815,MA,Sandwich town,182,1
+N1815,MA,Saugus town,516,2
+N1815,MA,Sharon town,451,1
+N1815,MA,Somerset town,318,1
+N1815,RI,South Kingstown town,1373,2
+N1815,MA,Spencer town,264,2
+N1815,NY,Staten Island borough,1650,1
+N1815,CT,Stonington town,124,2
+N1815,MA,Sturbridge town,268,1
+N1815,MA,Tisbury town,323,2
+N1815,CT,Tolland town,153,2
+N1815,MA,Wareham town,460,1
+N1815,MA,Watertown town,231,1
+N1815,ME,Wells town,1050,2
+N1815,MA,Wenham town,512,1
+N1815,MA,West Tisbury town,324,2
+N1815,MA,Weymouth town,449,2
+N1815,MA,Woburn city,222,0
+N1815,MA,Worcester city,277,3
+N1821,MA,Boston city,486,0
+N1821,CT,Bridgeport town,8,2
+N1821,NY,Bronx borough,1639,3
+N1821,NY,Brooklyn borough,1640,3
+N1821,CT,Canaan town,54,1
+N1821,MA,Concord town,211,1
+N1821,CT,East Hartfordtown,43,2
+N1821,CT,Ellington town,152,1
+N1821,NH,Epping town,1284,0
+N1821,CT,Greenwich town,20,3
+N1821,CT,Hartford town,41,1
+N1821,NH,Haverhill town,1182,2
+N1821,NH,Keene city,1120,0
+N1821,NY,Manhattan borough,1646,3
+N1821,CT,Middletown town,91,2
+N1821,CT,Morris town,72,2
+N1821,MA,Nantucket town,430,0
+N1821,MA,New Bedford city,311,0
+N1821,CT,New Haven town,100,2
+N1821,CT,New London town,142,1
+N1821,CT,Newington town,52,1
+N1821,CT,Newtown town,2,2
+N1821,CT,North Haven town,104,1
+N1821,MA,Northampton city,386,2
+N1821,RI,Providence city,1360,0
+N1821,NY,Queens borough,1649,3
+N1821,CT,Rocky Hill town,44,2
+N1821,RI,South Kingstown town,1373,0
+N1821,CT,Stamford town,21,3
+N1821,NY,Staten Island borough,1650,3
+N1821,CT,Stratford town,10,1
+N1821,CT,Trumbull town,7,2
+N1821,CT,Washington town,69,2
+N1821,CT,Wethersfield town,24,2
+N1821,CT,Windsor town,35,2
+N1821,MA,Worcester city,277,0
+N1825,NY,Bronx borough,1639,1
+N1825,NY,Brooklyn borough,1640,1
+N1825,NY,Manhattan borough,1646,1
+N1825,NY,Queens borough,1649,1
+N1825,NY,Staten Island borough,1650,1
+N1830,MA,Barnstable town,174,1
+N1830,MA,Nantucket town,430,2
+N1830,MA,New Bedford city,311,2
+N1839,ME,Machias town,1038,1
+N1839,MA,Nantucket town,430,0
+N1839,MA,Salem city,521,0
+N1841,ME,Bangor city,884,-1
+N1841,MA,Barnstable town,174,1
+N1841,MA,Boston city,486,0
+N1841,NY,Bronx borough,1639,0
+N1841,NY,Brooklyn borough,1640,0
+N1841,MA,Harwich town,178,1
+N1841,NY,Manhattan borough,1646,0
+N1841,MA,Mansfield town,302,1
+N1841,MA,Nantucket town,430,1
+N1841,MA,New Bedford city,311,2
+N1841,NY,Queens borough,1649,0
+N1841,NY,Staten Island borough,1650,0
+N1841,MA,Taunton city,308,2
+N1846,MA,Boston city,486,2
+N1846,NY,Bronx borough,1639,1
+N1846,NY,Brooklyn borough,1640,1
+N1846,MA,Canton town,446,2
+N1846,MA,Grafton town,282,1
+N1846,MA,Malden city,229,1
+N1846,NY,Manhattan borough,1646,1
+N1846,MA,Monson town,362,2
+N1846,MA,Northampton city,386,1
+N1846,CT,Norwich town,141,1
+N1846,MA,Palmer town,359,1
+N1846,NY,Queens borough,1649,1
+N1846,MA,South Hadley town,393,1
+N1846,MA,Southboro town,299,2
+N1846,MA,Springfield city,372,2
+N1846,NY,Staten Island borough,1650,1
+N1846,MA,Stoughton town,452,2
+N1846,MA,Wilmington town,233,2
+N1846,MA,Worcester city,277,2
+N1849,MA,Boston city,486,1
+N1849,NY,Manhattan borough,1646,2
+N1849,MA,Nantucket town,430,0
+N1849,MA,New Bedford city,311,2
+N1850,NY,Bronx borough,1639,2
+N1850,NY,Brooklyn borough,1640,2
+N1850,NY,Manhattan borough,1646,2
+N1850,CT,New Haven town,100,0
+N1850,NY,Queens borough,1649,2
+N1850,NY,Staten Island borough,1650,2
+N1854,NY,Bronx borough,1639,1
+N1854,NY,Brooklyn borough,1640,1
+N1854,NY,Manhattan borough,1646,1
+N1854,NY,Queens borough,1649,1
+N1854,NY,Staten Island borough,1650,1
+N1858,ME,Bangor city,884,1
+N1858,MA,Boston city,486,1
+N1858,MA,Nantucket town,430,1
+N1858,MA,Newton city,216,0
+N1858,RI,North Kingstown town,1380,0
+N1861,NY,Brooklyn borough,1640,1
+N1869a,MA,Abington town,475,2
+N1869a,MA,Acushnet town,312,2
+N1869a,ME,Bangor city,884,2
+N1869a,ME,Bath city,924,2
+N1869a,ME,Biddeford city,1053,1
+N1869a,ME,Boothbay town,778,2
+N1869a,MA,Boston city,486,3
+N1869a,ME,Bowdoinham town,919,2
+N1869a,MA,Braintree town,450,1
+N1869a,MA,Bridgewater town,466,2
+N1869a,RI,Bristol town,1343,3
+N1869a,ME,Bristol town,776,2
+N1869a,ME,Brunswick town,613,1
+N1869a,MA,Cambridge city,232,3
+N1869a,MA,Chelsea city,488,2
+N1869a,MA,Chilmark town,325,0
+N1869a,MA,Dartmouth town,309,2
+N1869a,MA,Dighton town,316,2
+N1869a,NH,Dorchester town,1187,1
+N1869a,ME,Durham town,533,2
+N1869a,MA,Duxbury town,479,2
+N1869a,RI,East Greenwich town,1349,2
+N1869a,NY,East Hampton town,1655,1
+N1869a,MA,Easton town,319,2
+N1869a,MA,Edgartown town,326,0
+N1869a,VT,Fair Haven town,1540,1
+N1869a,MA,Fairhaven town,313,2
+N1869a,MA,Fall River city,314,2
+N1869a,ME,Falmouth town,638,2
+N1869a,MA,Falmouth town,185,1
+N1869a,MA,Fitchburg city,291,0
+N1869a,MA,Freetown town,310,2
+N1869a,MA,Gay Head town,327,0
+N1869a,MA,Hamilton town,511,2
+N1869a,CT,Hartford town,41,2
+N1869a,MA,Hingham town,462,2
+N1869a,MA,Hull town,469,2
+N1869a,MA,Lawrence city,506,0
+N1869a,ME,Lewiston city,531,2
+N1869a,ME,Lisbon town,534,1
+N1869a,RI,Little Compton town,1354,2
+N1869a,MA,Lowell city,197,0
+N1869a,MA,Lynn city,518,2
+N1869a,MA,Mansfield town,302,1
+N1869a,MA,Marblehead town,522,2
+N1869a,MA,Marion town,471,1
+N1869a,MA,Marshfield town,459,2
+N1869a,MA,Mattapoisett town,472,2
+N1869a,MA,Mendon town,298,1
+N1869a,MA,Middleboro town,463,1
+N1869a,RI,Middletown town,1353,2
+N1869a,MA,Milford town,254,1
+N1869a,MA,Nahant town,519,2
+N1869a,MA,Nantucket town,430,-1
+N1869a,MA,New Bedford city,311,1
+N1869a,CT,New London town,142,1
+N1869a,RI,New Shoreham / Block Is.,1378,3
+N1869a,MA,Newburyport city,491,0
+N1869a,RI,Newport city,1355,2
+N1869a,MA,Newton city,216,2
+N1869a,MA,Oak Bluffs town,322,0
+N1869a,ME,Old Town city,850,2
+N1869a,RI,Pawtucket city,1371,2
+N1869a,MA,Peabody city,517,2
+N1869a,ME,Phippsburg town,925,2
+N1869a,ME,Portland city,620,2
+N1869a,RI,Portsmouth town,1351,2
+N1869a,RI,Providence city,1360,2
+N1869a,MA,Raynham town,307,2
+N1869a,MA,Rochester town,470,1
+N1869a,MA,Seekonk town,304,1
+N1869a,MA,Somerville city,227,2
+N1869a,RI,South Kingstown town,1373,2
+N1869a,ME,Steuben town,1005,1
+N1869a,CT,Stonington town,124,2
+N1869a,ME,Stonington town,698,2
+N1869a,MA,Taunton city,308,2
+N1869a,MA,Tisbury town,323,0
+N1869a,RI,Tiverton town,1352,1
+N1869a,ME,Topsham town,920,1
+N1869a,MA,Wareham town,460,1
+N1869a,RI,Warren town,1344,2
+N1869a,ME,Waterville city,737,1
+N1869a,MA,West Bridgewater town,473,1
+N1869a,MA,West Tisbury town,324,0
+N1869a,MA,Westport town,315,2
+N1869a,ME,Winslow town,717,1
+N1869a,ME,Winterport town,975,1
+N1869a,ME,Wiscasset town,772,2
+N1869a,ME,Woolwich town,922,2
+N1869a,VT,Worcester town,1557,0
+N1869a,ME,York town,1068,2
+N1869b,ME,Calais city,1006,3
+N1869b,ME,Eastport city,998,3
+N1869b,ME,Steuben town,1005,2
+N1878,NY,Bronx borough,1639,2
+N1878,NY,Brooklyn borough,1640,2
+N1878,CT,Hartford town,41,1
+N1878,NY,Manhattan borough,1646,2
+N1878,NY,Queens borough,1649,2
+N1878,NY,Staten Island borough,1650,2
+N1888,MA,Hingham town,462,1
+N1893b,NY,Brooklyn borough,1640,2
+N1893b,NY,Manhattan borough,1646,2
+N1893b,NY,Queens borough,1649,2
+N1893b,NY,Southold town,1651,0
+N1893c,NY,Brooklyn borough,1640,2
+N1893c,MA,Haverhill city,490,1
+N1893c,NY,Manhattan borough,1646,1
+N1893c,CT,New Haven town,100,1
+N1893c,NY,Queens borough,1649,1
+N1896,MA,Boston city,486,0
+N1896,MA,Hull town,469,0
+N1903,NY,Bronx borough,1639,1
+N1903,NY,Brooklyn borough,1640,2
+N1903,NY,Manhattan borough,1646,2
+N1903,NY,Staten Island borough,1650,2
+N1924,MA,Barnstable town,174,1
+N1924,MA,Beverly city,520,1
+N1924,MA,Boston city,486,1
+N1924,MA,Braintree town,450,1
+N1924,MA,Dedham town,443,1
+N1924,MA,Easton town,319,1
+N1924,MA,Everett city,230,1
+N1924,MA,Falmouth town,185,2
+N1924,MA,Foxboro town,456,1
+N1924,MA,Franklin town,440,1
+N1924,MA,Hull town,469,1
+N1924,MA,Lynn city,518,1
+N1924,MA,Mansfield town,302,1
+N1924,MA,Marblehead town,522,1
+N1924,MA,Middleboro town,463,1
+N1924,MA,Nahant town,519,1
+N1924,MA,New Bedford city,311,1
+N1924,MA,Newburyport city,491,0
+N1924,MA,Peabody city,517,0
+N1924,MA,Plymouth town,461,1
+N1924,MA,Provincetown town,179,1
+N1924,MA,Randolph town,458,1
+N1924,MA,Rockland town,476,1
+N1924,MA,Scituate town,478,1
+N1924,MA,Tisbury town,323,2
+N1924,MA,Wareham town,460,1
+N1924,MA,Winthrop town,489,1
+N1927,MA,Concord town,211,0
+N1927,MA,Plymouth town,461,0
+N1933,MA,Bolton town,294,0
+N1933,MA,Concord town,211,0
+N1933,MA,Harvard town,248,0
+N1933,MA,Lancaster town,241,0
+N1933,MA,Newton city,216,0
+N1933,MA,Sterling town,242,0
+N1933,MA,Wellfleet town,172,0
+N1934,NY,Brooklyn borough,1640,1
+N1934,NY,Manhattan borough,1646,1
+N1936a,CT,Bridgeport town,8,0
+N1936a,NY,Bronx borough,1639,0
+N1936a,NY,Brooklyn borough,1640,1
+N1936a,NY,Hempstead town,1644,1
+N1936a,NY,Manhattan borough,1646,0
+N1936a,CT,New Haven town,100,-1
+N1936a,NY,Oyster Bay town,1642,1
+N1936a,NY,Queens borough,1649,0
+N1936a,NY,Staten Island borough,1650,0
+N1936a,NY,White Plains city,1679,1
+N1938,ME,Alfred town,1046,1
+N1938,MA,Amesbury town,496,2
+N1938,MA,Athol town,250,2
+N1938,MA,Attleboro city,303,1
+N1938,MA,Bedford town,215,1
+N1938,MA,Belmont town,238,1
+N1938,MA,Boston city,486,2
+N1938,MA,Bourne town,181,1
+N1938,NH,Bow town,1272,2
+N1938,CT,Branford town,108,1
+N1938,MA,Brockton city,481,1
+N1938,NY,Bronx borough,1639,1
+N1938,MA,Brookfield town,266,2
+N1938,MA,Brookline town,442,1
+N1938,NY,Brooklyn borough,1640,1
+N1938,CT,Brooklyn town,164,1
+N1938,ME,Buxton town,1079,0
+N1938,MA,Cambridge city,232,2
+N1938,MA,Canton town,446,1
+N1938,CT,Cheshire town,113,1
+N1938,MA,Clinton town,295,2
+N1938,CT,Clinton town,83,2
+N1938,NH,Concord city,1267,2
+N1938,MA,Concord town,211,1
+N1938,MA,Danvers town,510,1
+N1938,MA,Dedham town,443,1
+N1938,MA,East Brookfield town,267,1
+N1938,CT,East Lyme town,129,1
+N1938,RI,East Providence city,1361,1
+N1938,MA,Easthampton town,396,1
+N1938,MA,Easton town,319,2
+N1938,CT,Enfield town,33,2
+N1938,MA,Everett city,230,2
+N1938,MA,Fairhaven town,313,2
+N1938,MA,Fall River city,314,2
+N1938,MA,Falmouth town,185,2
+N1938,MA,Fitchburg city,291,2
+N1938,MA,Framingham town,207,2
+N1938,CT,Glastonbury town,25,1
+N1938,MA,Grafton town,282,2
+N1938,MA,Groton town,189,1
+N1938,VT,Guilford town,1587,1
+N1938,CT,Hamden town,99,1
+N1938,CT,Hartford town,41,1
+N1938,MA,Haverhill city,490,1
+N1938,MA,Holden town,272,1
+N1938,MA,Holliston town,210,2
+N1938,MA,Holyoke city,368,1
+N1938,MA,Hopedale town,297,2
+N1938,NH,Keene city,1120,1
+N1938,ME,Lebanon town,1043,1
+N1938,MA,Leominster city,293,1
+N1938,MA,Lexington town,221,1
+N1938,MA,Lowell city,197,1
+N1938,MA,Ludlow town,370,2
+N1938,CT,Lyme town,127,1
+N1938,CT,Madison town,106,1
+N1938,MA,Malden city,229,1
+N1938,NH,Manchester city,1227,2
+N1938,MA,Manchester town,494,1
+N1938,NY,Manhattan borough,1646,1
+N1938,CT,Mansfield town,147,1
+N1938,MA,Mansfield town,302,1
+N1938,MA,Marblehead town,522,1
+N1938,MA,Marlboro town,198,2
+N1938,MA,Methuen town,503,2
+N1938,NH,Milford town,1248,2
+N1938,MA,Milton town,447,2
+N1938,MA,Nantucket town,430,0
+N1938,NH,Nashua city,1246,2
+N1938,CT,New Britain town,46,2
+N1938,CT,New Haven town,100,2
+N1938,CT,New London town,142,2
+N1938,MA,Newburyport city,491,1
+N1938,RI,Newport city,1355,1
+N1938,MA,Newton city,216,1
+N1938,MA,Northboro town,281,1
+N1938,MA,Northfield town,342,1
+N1938,ME,Norway town,789,1
+N1938,CT,Norwich town,141,1
+N1938,MA,Oak Bluffs town,322,2
+N1938,MA,Orange town,344,2
+N1938,ME,Oxford town,821,1
+N1938,RI,Pawtucket city,1371,1
+N1938,MA,Peabody city,517,2
+N1938,MA,Phillipston town,252,2
+N1938,CT,Plainfield town,170,2
+N1938,ME,Portland city,620,1
+N1938,CT,Portland town,79,1
+N1938,NH,Portsmouth city,1293,0
+N1938,RI,Providence city,1360,2
+N1938,NY,Queens borough,1649,1
+N1938,MA,Quincy city,448,1
+N1938,NH,Rochester town,1315,1
+N1938,ME,Sanford town,1045,1
+N1938,CT,Saybrook town,86,2
+N1938,MA,Sharon town,451,1
+N1938,CT,Somers town,151,2
+N1938,NH,Somersworth City ,1322,2
+N1938,MA,Somerville city,227,2
+N1938,NY,Southampton town,1652,3
+N1938,NY,Southold town,1651,2
+N1938,MA,Spencer town,264,2
+N1938,MA,Springfield city,372,1
+N1938,VT,St. Johnsbury town,1433,1
+N1938,CT,Stamford town,21,1
+N1938,NY,Staten Island borough,1650,1
+N1938,CT,Stonington town,124,2
+N1938,CT,Stratford town,10,2
+N1938,MA,Taunton city,308,1
+N1938,CT,Thomaston town,67,1
+N1938,CT,Thompson town,168,1
+N1938,MA,Tisbury town,323,2
+N1938,CT,Tolland town,153,1
+N1938,MA,Topsfield town,509,1
+N1938,MA,Tyngsborough town,194,1
+N1938,MA,Walpole town,441,1
+N1938,MA,Ware town,392,1
+N1938,MA,Wareham town,460,2
+N1938,ME,Waterboro town,1077,1
+N1938,MA,Watertown town,231,1
+N1938,ME,Waterville city,737,1
+N1938,MA,West Brookfield town,261,1
+N1938,VT,Westminster town,1595,1
+N1938,MA,Weymouth town,449,1
+N1938,MA,Winchester town,225,1
+N1938,CT,Windham town,161,2
+N1938,CT,Windsor Locks town,34,1
+N1938,CT,Windsor town,35,2
+N1938,MA,Woburn city,222,1
+N1938,MA,Worcester city,277,2
+N1940,MA,Nantucket town,430,1
+N1940,MA,Plymouth town,461,0
+N1944,MA,Amherst town,388,1
+N1944,MA,Arlington town,237,1
+N1944,MA,Barnstable town,174,2
+N1944,CT,Bethel town,17,1
+N1944,MA,Boston city,486,1
+N1944,MA,Bourne town,181,2
+N1944,NY,Bronx borough,1639,1
+N1944,NY,Brookhaven town,1664,1
+N1944,NY,Brooklyn borough,1640,1
+N1944,MA,Chatham town,177,1
+N1944,MA,Cohasset town,454,1
+N1944,MA,Dennis town,183,1
+N1944,MA,Duxbury town,479,1
+N1944,CT,Fairfield town,12,1
+N1944,MA,Fairhaven town,313,1
+N1944,MA,Falmouth town,185,2
+N1944,CT,Greenwich town,20,1
+N1944,MA,Hadley town,383,2
+N1944,CT,Hartford town,41,1
+N1944,NY,Hempstead town,1644,1
+N1944,NY,Islip town,1656,1
+N1944,RI,Little Compton town,1354,1
+N1944,MA,Lynn city,518,1
+N1944,NY,Manhattan borough,1646,1
+N1944,MA,Marshfield town,459,2
+N1944,MA,Mashpee town,184,2
+N1944,MA,Mattapoisett town,472,2
+N1944,CT,Milford town,103,1
+N1944,MA,Nantucket town,430,2
+N1944,MA,New Bedford city,311,2
+N1944,CT,New Haven town,100,1
+N1944,CT,New Milford town,70,1
+N1944,RI,Newport city,1355,2
+N1944,MA,Newton city,216,1
+N1944,MA,Northampton city,386,1
+N1944,CT,Norwalk town,13,1
+N1944,NY,Oyster Bay town,1642,1
+N1944,RI,Pawtucket city,1371,1
+N1944,MA,Plymouth town,461,1
+N1944,RI,Providence city,1360,1
+N1944,MA,Provincetown town,179,1
+N1944,NY,Queens borough,1649,1
+N1944,NY,Riverhead town,1658,1
+N1944,MA,Scituate town,478,1
+N1944,MA,Springfield city,372,1
+N1944,CT,Stamford town,21,1
+N1944,NY,Staten Island borough,1650,1
+N1944,MA,Swampscott town,523,1
+N1944,MA,Topsfield town,509,1
+N1944,MA,Wareham town,460,2
+N1944,MA,Watertown town,231,1
+N1944,RI,Westerly town,1374,1
+N1944,CT,Westport town,9,1
+N1944,MA,Winchester town,225,1
+N1944,MA,Yarmouth town,186,1
+N1950b,MA,Provincetown town,179,1
+N1953a,MA,Falmouth town,185,1
+N1954a,MA,Amherst town,388,1
+N1954a,MA,Arlington town,237,1
+N1954a,MA,Attleboro city,303,0
+N1954a,MA,Barnstable town,174,1
+N1954a,MA,Belmont town,238,1
+N1954a,MA,Boston city,486,2
+N1954a,RI,Bristol town,1343,2
+N1954a,NY,Bronx borough,1639,1
+N1954a,MA,Brookline town,442,1
+N1954a,NY,Brooklyn borough,1640,1
+N1954a,MA,Cambridge city,232,2
+N1954a,MA,Chelsea city,488,1
+N1954a,MA,Dartmouth town,309,1
+N1954a,MA,Dedham town,443,2
+N1954a,NH,Dover city,1325,0
+N1954a,MA,Duxbury town,479,1
+N1954a,NY,East Hampton town,1655,2
+N1954a,CT,East Hartfordtown,43,1
+N1954a,NH,Epping town,1284,1
+N1954a,MA,Everett city,230,1
+N1954a,CT,Fairfield town,12,1
+N1954a,MA,Fall River city,314,1
+N1954a,MA,Falmouth town,185,2
+N1954a,MA,Fitchburg city,291,1
+N1954a,MA,Framingham town,207,1
+N1954a,CT,Greenwich town,20,1
+N1954a,CT,Hartford town,41,1
+N1954a,MA,Hingham town,462,1
+N1954a,MA,Lexington town,221,1
+N1954a,MA,Lynn city,518,1
+N1954a,MA,Malden city,229,1
+N1954a,CT,Manchester town,39,1
+N1954a,NY,Manhattan borough,1646,1
+N1954a,MA,Marblehead town,522,1
+N1954a,MA,Mattapoisett town,472,1
+N1954a,MA,Medfield town,436,1
+N1954a,MA,Medway town,439,1
+N1954a,MA,Melrose city,228,1
+N1954a,MA,Middleboro town,463,1
+N1954a,MA,Milford town,254,1
+N1954a,MA,Milton town,447,1
+N1954a,RI,Narragansett town,1372,2
+N1954a,MA,Needham town,437,1
+N1954a,MA,New Bedford city,311,1
+N1954a,CT,New London town,142,1
+N1954a,RI,New Shoreham / Block Is.,1378,2
+N1954a,MA,Newburyport city,491,1
+N1954a,RI,Newport city,1355,1
+N1954a,RI,North Providence town,1368,1
+N1954a,CT,Norwalk town,13,1
+N1954a,MA,Norwell town,474,1
+N1954a,CT,Norwich town,141,1
+N1954a,MA,Plymouth town,461,1
+N1954a,ME,Portland city,620,1
+N1954a,NH,Portsmouth city,1293,1
+N1954a,RI,Providence city,1360,2
+N1954a,NY,Queens borough,1649,1
+N1954a,MA,Quincy city,448,0
+N1954a,MA,Reading town,240,1
+N1954a,MA,Revere city,487,1
+N1954a,NY,Rockville Center town,1645,1
+N1954a,CT,Rocky Hill town,44,1
+N1954a,MA,Salem city,521,1
+N1954a,MA,Scituate town,478,1
+N1954a,CT,Simsbury town,30,1
+N1954a,RI,Smithfield town,1365,1
+N1954a,NY,Southampton town,1652,2
+N1954a,NY,Staten Island borough,1650,1
+N1954a,MA,Stoneham town,223,1
+N1954a,MA,Sudbury town,212,1
+N1954a,MA,Taunton city,308,2
+N1954a,MA,Tewksbury town,202,1
+N1954a,MA,Waltham city,218,1
+N1954a,MA,Wareham town,460,1
+N1954a,MA,Watertown town,231,1
+N1954a,MA,Wellesley town,433,1
+N1954a,CT,West Hartford town,40,1
+N1954a,RI,Westerly town,1374,1
+N1954a,MA,Westwood town,444,1
+N1954a,CT,Wethersfield town,24,1
+N1954a,MA,Weymouth town,449,2
+N1954a,NY,White Plains city,1679,1
+N1954a,MA,Whitman town,482,1
+N1954a,MA,Winchester town,225,1
+N1954a,MA,Woburn city,222,1
+N1954a,MA,Worcester city,277,1
+N1954a,MA,Yarmouth town,186,1
+N1954b,MA,Arlington town,237,1
+N1954b,MA,Ashland town,208,1
+N1954b,MA,Boston city,486,1
+N1954b,NY,Bronx borough,1639,1
+N1954b,NY,Brooklyn borough,1640,1
+N1954b,MA,Hanover town,477,1
+N1954b,MA,Hanson town,483,2
+N1954b,MA,Ipswich town,513,1
+N1954b,NY,Manhattan borough,1646,1
+N1954b,MA,Nantucket town,430,1
+N1954b,MA,Needham town,437,1
+N1954b,CT,New London town,142,1
+N1954b,MA,Norwell town,474,1
+N1954b,MA,Norwood town,445,1
+N1954b,MA,Oak Bluffs town,322,1
+N1954b,NY,Queens borough,1649,1
+N1954b,MA,Salem city,521,1
+N1954b,NH,Salem town,1310,2
+N1954b,NY,Staten Island borough,1650,1
+N1954b,MA,Worcester city,277,1
+N1960,MA,Barnstable town,174,1
+N1960,MA,Beverly city,520,1
+N1960,MA,Boston city,486,1
+N1960,MA,Bourne town,181,1
+N1960,MA,Brewster town,176,1
+N1960,MA,Brockton city,481,1
+N1960,NY,Bronx borough,1639,1
+N1960,NY,Brookhaven town,1664,1
+N1960,NY,Brooklyn borough,1640,1
+N1960,MA,Cohasset town,454,1
+N1960,MA,Dartmouth town,309,1
+N1960,NY,Eastchester town,1683,1
+N1960,MA,Framingham town,207,1
+N1960,MA,Haverhill city,490,1
+N1960,NY,Hempstead town,1644,1
+N1960,MA,Hingham town,462,1
+N1960,MA,Hull town,469,1
+N1960,MA,Lynn city,518,1
+N1960,NY,Manhattan borough,1646,1
+N1960,MA,Medford city,226,1
+N1960,MA,Melrose city,228,1
+N1960,MA,Middleboro town,463,1
+N1960,MA,Milford town,254,1
+N1960,MA,Needham town,437,1
+N1960,MA,New Bedford city,311,1
+N1960,MA,North Reading town,239,1
+N1960,MA,Orleans town,175,0
+N1960,NY,Oyster Bay town,1642,1
+N1960,NY,Pelham town,1685,1
+N1960,NY,Queens borough,1649,1
+N1960,MA,Quincy city,448,1
+N1960,VT,Rockingham town,1581,0
+N1960,MA,Rockland town,476,2
+N1960,NY,Rye city,1689,1
+N1960,MA,Salem city,521,1
+N1960,NY,Scarsdale town,1681,1
+N1960,MA,Scituate town,478,1
+N1960,RI,South Kingstown town,1373,1
+N1960,NY,Staten Island borough,1650,1
+N1960,MA,Sudbury town,212,1
+N1960,MA,Waltham city,218,0
+N1960,MA,Wareham town,460,1
+N1960,MA,Wayland town,214,1
+N1960,MA,Weymouth town,449,1
+N1960,NY,White Plains city,1679,1
+N1960,MA,Worcester city,277,0
+N1961,MA,Boston city,486,0
+N1961,MA,Brookline town,442,0
+N1961,MA,Canton town,446,0
+N1961,MA,Stoneham town,223,0
+N1961,MA,Walpole town,441,0
+N1961,MA,Watertown town,231,0
+N1962b,ME,Thomaston town,750,1
+N1963,MA,Boston city,486,-1
+N1963,ME,Greenville town,895,1
+N1969,MA,Quincy city,448,0
+N1976,MA,Boston city,486,1
+N1976,CT,Hartford town,41,0
+N1976,NY,Hempstead town,1644,1
+N1976,NY,Islip town,1656,1
+N1976,CT,Norwalk town,13,0
+N1976,MA,Paxton town,271,1
+N1976,NY,Riverhead town,1658,0
+N1976,NY,Smithtown town,1661,1
+N1976,NY,Southampton town,1652,1
+N1985,CT,Ansonia town,122,1
+N1985,MA,Attleboro city,303,1
+N1985,ME,Augusta city,715,1
+N1985,CT,Avon town,38,1
+N1985,CT,Barkhamsted town,63,1
+N1985,MA,Billerica town,235,1
+N1985,CT,Bloomfield town,32,0
+N1985,CT,Bolton town,155,1
+N1985,MA,Boston city,486,2
+N1985,CT,Branford town,108,0
+N1985,CT,Bridgeport town,8,0
+N1985,CT,Bristol town,50,1
+N1985,NY,Bronx borough,1639,1
+N1985,NY,Brooklyn borough,1640,1
+N1985,CT,Burlington town,27,1
+N1985,CT,Canton town,37,1
+N1985,CT,Chester town,82,1
+N1985,MA,Chicopee city,369,1
+N1985,CT,Clinton town,83,1
+N1985,RI,Cranston city,1364,1
+N1985,MA,Dedham town,443,1
+N1985,CT,Derby town,95,1
+N1985,CT,Durham town,93,1
+N1985,MA,East Bridgewater town,465,1
+N1985,CT,East Granby town,31,1
+N1985,CT,East Haddam town,89,1
+N1985,CT,East Hampton town,90,1
+N1985,NY,East Hampton town,1655,1
+N1985,CT,East Hartfordtown,43,1
+N1985,CT,East Lyme town,129,1
+N1985,CT,East Windsor town,36,1
+N1985,MA,Easthampton town,396,1
+N1985,CT,Essex town,85,0
+N1985,MA,Fall River city,314,0
+N1985,MA,Falmouth town,185,1
+N1985,CT,Farmington town,45,1
+N1985,MA,Framingham town,207,1
+N1985,CT,Glastonbury town,25,1
+N1985,CT,Granby town,28,1
+N1985,NY,Greenburgh town,1677,1
+N1985,CT,Haddam town,88,1
+N1985,NH,Hampton town,1307,0
+N1985,CT,Hartford town,41,1
+N1985,CT,Hartland town,26,1
+N1985,MA,Harvard town,248,0
+N1985,CT,Harwinton town,68,1
+N1985,CT,Hebron town,150,1
+N1985,MA,Holyoke city,368,1
+N1985,NY,Islip town,1656,2
+N1985,CT,Lyme town,127,1
+N1985,CT,Madison town,106,1
+N1985,NY,Manhattan borough,1646,1
+N1985,CT,Marlboro town,47,1
+N1985,MA,Melrose city,228,1
+N1985,CT,Meriden town,119,1
+N1985,CT,Middlebury town,97,1
+N1985,CT,Milford town,103,2
+N1985,MA,Nantucket town,430,0
+N1985,MA,New Bedford city,311,1
+N1985,CT,New Britain town,46,2
+N1985,CT,New Hartford town,57,1
+N1985,CT,New Haven town,100,2
+N1985,CT,New London town,142,1
+N1985,CT,Newington town,52,1
+N1985,MA,Newton city,216,1
+N1985,MA,Norfolk town,434,1
+N1985,CT,Old Lyme town,136,1
+N1985,CT,Old Saybrook town,81,2
+N1985,CT,Orange town,102,1
+N1985,CT,Plainville town,51,1
+N1985,CT,Plymouth town,77,1
+N1985,CT,Portland town,79,1
+N1985,RI,Providence city,1360,1
+N1985,NY,Queens borough,1649,1
+N1985,MA,Quincy city,448,1
+N1985,CT,Rocky Hill town,44,1
+N1985,CT,Saybrook town,86,1
+N1985,RI,Scituate town,1363,2
+N1985,CT,Seymour town,94,1
+N1985,CT,Shelton town,3,1
+N1985,CT,Simsbury town,30,1
+N1985,CT,Somers town,151,1
+N1985,NY,Southampton town,1665,0
+N1985,CT,Southington town,48,2
+N1985,MA,Springfield city,372,1
+N1985,CT,Stafford town,144,1
+N1985,NY,Staten Island borough,1650,1
+N1985,MA,Sterling town,242,0
+N1985,CT,Stratford town,10,1
+N1985,CT,Suffield town,29,1
+N1985,CT,Vernon town,154,1
+N1985,RI,Warren town,1344,2
+N1985,RI,Warwick city,1347,1
+N1985,CT,Waterbury town,120,1
+N1985,CT,West Hartford town,40,1
+N1985,CT,Westbrook town,84,1
+N1985,RI,Westerly town,1374,0
+N1985,CT,Wethersfield town,24,1
+N1985,CT,Willington town,145,1
+N1985,CT,Windsor Locks town,34,1
+N1985,CT,Windsor town,35,0
+N1985,MA,Winthrop town,489,1
+N1985,MA,Worcester city,277,1
+N1991,MA,Abington town,475,0
+N1991,MA,Acton town,203,1
+N1991,MA,Acushnet town,312,1
+N1991,MA,Amesbury town,496,1
+N1991,MA,Amherst town,388,1
+N1991,MA,Andover town,504,1
+N1991,CT,Ansonia town,122,1
+N1991,MA,Arlington town,237,1
+N1991,MA,Ashburnham town,244,1
+N1991,CT,Ashford town,157,1
+N1991,MA,Ashland town,208,1
+N1991,MA,Attleboro city,303,1
+N1991,MA,Auburn town,275,1
+N1991,CT,Avon town,38,1
+N1991,MA,Avon town,457,1
+N1991,MA,Ayer town,190,1
+N1991,MA,Barnstable town,174,2
+N1991,RI,Barrington town,1342,2
+N1991,MA,Bedford town,215,1
+N1991,MA,Belmont town,238,1
+N1991,MA,Berkley town,317,0
+N1991,CT,Berlin town,49,0
+N1991,MA,Beverly city,520,1
+N1991,CT,Bloomfield town,32,1
+N1991,MA,Bolton town,294,1
+N1991,MA,Boston city,486,0
+N1991,MA,Bourne town,181,1
+N1991,MA,Boxboro town,192,1
+N1991,MA,Boxford town,508,0
+N1991,MA,Boylston town,279,0
+N1991,CT,Bozrah town,137,1
+N1991,MA,Braintree town,450,1
+N1991,MA,Brewster town,176,1
+N1991,MA,Bridgewater town,466,1
+N1991,RI,Bristol town,1343,2
+N1991,CT,Bristol town,50,1
+N1991,MA,Brockton city,481,1
+N1991,MA,Brookfield town,266,1
+N1991,MA,Brookline town,442,1
+N1991,ME,Brunswick town,613,1
+N1991,MA,Burlington town,236,1
+N1991,MA,Cambridge city,232,1
+N1991,CT,Cantebury town,166,1
+N1991,MA,Canton town,446,1
+N1991,MA,Carver town,468,1
+N1991,RI,Charlestown town,1377,1
+N1991,MA,Chatham town,177,1
+N1991,MA,Chelmsford town,196,1
+N1991,MA,Chelsea city,488,0
+N1991,CT,Cheshire town,113,1
+N1991,CT,Chester town,82,1
+N1991,MA,Chilmark town,325,2
+N1991,MA,Clinton town,295,1
+N1991,MA,Cohasset town,454,1
+N1991,CT,Colchester town,126,1
+N1991,MA,Concord town,211,1
+N1991,RI,Coventry town,1346,1
+N1991,CT,Cromwell town,80,1
+N1991,CT,Danbury town,16,1
+N1991,MA,Danvers town,510,0
+N1991,CT,Darien town,4,0
+N1991,MA,Dartmouth town,309,2
+N1991,MA,Dedham town,443,1
+N1991,MA,Dennis town,183,1
+N1991,MA,Dudley town,283,0
+N1991,MA,Dunstable town,193,1
+N1991,MA,East Bridgewater town,465,1
+N1991,MA,East Brookfield town,267,1
+N1991,RI,East Greenwich town,1349,1
+N1991,CT,East Haddam town,89,1
+N1991,CT,East Hampton town,90,1
+N1991,CT,East Hartfordtown,43,1
+N1991,CT,East Lyme town,129,1
+N1991,RI,East Providence city,1361,1
+N1991,MA,Eastham town,173,1
+N1991,MA,Easton town,319,1
+N1991,MA,Edgartown town,326,2
+N1991,CT,Enfield town,33,0
+N1991,CT,Essex town,85,1
+N1991,RI,Exeter town,1379,1
+N1991,MA,Fairhaven town,313,2
+N1991,MA,Fall River city,314,2
+N1991,MA,Falmouth town,185,2
+N1991,CT,Farmington town,45,1
+N1991,MA,Fitchburg city,291,1
+N1991,MA,Foxboro town,456,1
+N1991,MA,Framingham town,207,1
+N1991,MA,Franklin town,440,1
+N1991,CT,Franklin town,130,1
+N1991,MA,Freetown town,310,1
+N1991,MA,Gardner city,243,0
+N1991,MA,Gay Head town,327,2
+N1991,MA,Georgetown town,501,0
+N1991,MA,Gloucester city,514,1
+N1991,MA,Granby town,397,1
+N1991,CT,Greenwich town,20,1
+N1991,MA,Groveland town,499,1
+N1991,CT,Guilford town,107,1
+N1991,MA,Halifax town,467,1
+N1991,MA,Hamilton town,511,1
+N1991,MA,Hanover town,477,2
+N1991,CT,Hartford town,41,1
+N1991,MA,Harvard town,248,0
+N1991,MA,Harwich town,178,1
+N1991,MA,Haverhill city,490,1
+N1991,MA,Hingham town,462,1
+N1991,MA,Holden town,272,1
+N1991,MA,Holliston town,210,1
+N1991,MA,Holyoke city,368,1
+N1991,RI,Hopkinton town,1375,1
+N1991,MA,Hubbardston town,259,1
+N1991,MA,Hull town,469,1
+N1991,MA,Ipswich town,513,1
+N1991,RI,Jamestown town,1350,1
+N1991,ME,Kennebunkport town,1054,1
+N1991,CT,Kent town,64,0
+N1991,CT,Killington town,169,1
+N1991,CT,Killingworth town,87,1
+N1991,MA,Kingston town,480,1
+N1991,MA,Lakeville town,464,1
+N1991,MA,Lancaster town,241,0
+N1991,MA,Lawrence city,506,1
+N1991,CT,Ledyard town,139,1
+N1991,MA,Leominster city,293,1
+N1991,MA,Lexington town,221,1
+N1991,MA,Lincoln town,213,1
+N1991,RI,Lincoln town,1366,1
+N1991,CT,Litchfield town,66,1
+N1991,MA,Littleton town,191,0
+N1991,MA,Longmeadow town,377,1
+N1991,MA,Lowell city,197,0
+N1991,MA,Lunenburg town,290,1
+N1991,MA,Lynn city,518,1
+N1991,MA,Lynnfield town,498,1
+N1991,CT,Madison town,106,1
+N1991,MA,Malden city,229,1
+N1991,NH,Manchester city,1227,1
+N1991,CT,Manchester town,39,1
+N1991,MA,Manchester town,494,1
+N1991,CT,Mansfield town,147,1
+N1991,MA,Marblehead town,522,1
+N1991,CT,Marlboro town,47,0
+N1991,MA,Marshfield town,459,1
+N1991,MA,Mashpee town,184,1
+N1991,MA,Mattapoisett town,472,1
+N1991,MA,Medford city,226,1
+N1991,MA,Melrose city,228,1
+N1991,CT,Meriden town,119,1
+N1991,MA,Merrimac town,493,1
+N1991,MA,Methuen town,503,1
+N1991,MA,Middleboro town,463,1
+N1991,RI,Middletown town,1353,1
+N1991,CT,Milford town,103,1
+N1991,MA,Milford town,254,1
+N1991,MA,Millbury town,278,1
+N1991,MA,Milton town,447,1
+N1991,CT,Montville town,138,1
+N1991,MA,Nahant town,519,1
+N1991,MA,Nantucket town,430,2
+N1991,RI,Narragansett town,1372,1
+N1991,MA,Natick town,219,1
+N1991,CT,Naugatuck town,117,1
+N1991,MA,New Bedford city,311,2
+N1991,CT,New Britain town,46,1
+N1991,CT,New Canaan town,5,1
+N1991,CT,New London town,142,1
+N1991,RI,New Shoreham / Block Is.,1378,2
+N1991,MA,Newburyport city,491,1
+N1991,CT,Newington town,52,1
+N1991,RI,Newport city,1355,2
+N1991,MA,Newton city,216,1
+N1991,CT,Newtown town,2,1
+N1991,MA,North Andover town,505,1
+N1991,MA,North Attleboro town,301,1
+N1991,CT,North Branford town,105,1
+N1991,MA,North Brookfield town,262,1
+N1991,RI,North Kingstown town,1380,1
+N1991,MA,North Reading town,239,1
+N1991,MA,Northbridge town,286,1
+N1991,MA,Norton town,306,1
+N1991,CT,Norwalk town,13,1
+N1991,MA,Norwell town,474,1
+N1991,MA,Oak Bluffs town,322,2
+N1991,CT,Old Saybrook town,81,1
+N1991,MA,Orange town,344,0
+N1991,MA,Orleans town,175,2
+N1991,CT,Oxford town,118,1
+N1991,MA,Palmer town,359,1
+N1991,RI,Pawtucket city,1371,1
+N1991,MA,Peabody city,517,1
+N1991,MA,Pembroke town,484,1
+N1991,MA,Phillipston town,252,1
+N1991,CT,Plainfield town,170,0
+N1991,CT,Plainville town,51,1
+N1991,MA,Plymouth town,461,1
+N1991,MA,Plympton town,485,1
+N1991,CT,Portland town,79,1
+N1991,RI,Portsmouth town,1351,1
+N1991,MA,Princeton town,292,0
+N1991,CT,Prospect town,112,1
+N1991,RI,Providence city,1360,1
+N1991,MA,Provincetown town,179,2
+N1991,CT,Putnam town,167,1
+N1991,MA,Quincy city,448,1
+N1991,MA,Randolph town,458,1
+N1991,MA,Reading town,240,1
+N1991,CT,Redding town,18,1
+N1991,MA,Rehoboth town,305,1
+N1991,MA,Revere city,487,0
+N1991,RI,Richmond town,1376,2
+N1991,CT,Ridgefield town,22,1
+N1991,NY,Riverhead town,1658,1
+N1991,MA,Rochester town,470,0
+N1991,MA,Rockland town,476,1
+N1991,CT,Rocky Hill town,44,1
+N1991,MA,Royalston town,249,1
+N1991,MA,Salem city,521,1
+N1991,CT,Salem town,128,1
+N1991,MA,Salisbury town,492,0
+N1991,MA,Sandwich town,182,2
+N1991,MA,Saugus town,516,1
+N1991,CT,Saybrook town,86,1
+N1991,MA,Seekonk town,304,1
+N1991,CT,Shelton town,3,1
+N1991,MA,Sherborn town,220,1
+N1991,MA,Shrewsbury town,280,1
+N1991,CT,Simsbury town,30,1
+N1991,CT,Somers town,151,1
+N1991,MA,Somerset town,318,1
+N1991,MA,South Hadley town,393,1
+N1991,RI,South Kingstown town,1373,1
+N1991,MA,Southboro town,299,1
+N1991,MA,Southbridge town,270,1
+N1991,CT,Southbury town,96,1
+N1991,CT,Southington town,48,1
+N1991,NY,Southold town,1651,1
+N1991,MA,Spencer town,264,1
+N1991,CT,Stafford town,144,1
+N1991,MA,Sterling town,242,0
+N1991,CT,Stonington town,124,1
+N1991,MA,Stoughton town,452,0
+N1991,MA,Sudbury town,212,1
+N1991,MA,Swampscott town,523,1
+N1991,MA,Swansea town,320,1
+N1991,MA,Templeton town,251,1
+N1991,CT,Thompson town,168,1
+N1991,MA,Tisbury town,323,2
+N1991,RI,Tiverton town,1352,2
+N1991,MA,Topsfield town,509,1
+N1991,ME,Topsham town,920,1
+N1991,MA,Truro town,180,2
+N1991,MA,Tyngsborough town,194,1
+N1991,MA,Uxbridge town,246,1
+N1991,MA,Wakefield town,224,2
+N1991,CT,Wallingford town,114,1
+N1991,MA,Walpole town,441,1
+N1991,MA,Waltham city,218,1
+N1991,MA,Ware town,392,1
+N1991,MA,Wareham town,460,1
+N1991,RI,Warren town,1344,1
+N1991,RI,Warwick city,1347,1
+N1991,CT,Waterbury town,120,1
+N1991,CT,Waterford town,140,1
+N1991,MA,Watertown town,231,2
+N1991,MA,Wayland town,214,1
+N1991,MA,Webster town,285,1
+N1991,MA,Wellesley town,433,1
+N1991,MA,Wellfleet town,172,1
+N1991,MA,Wenham town,512,1
+N1991,MA,West Boylston town,276,1
+N1991,MA,West Bridgewater town,473,1
+N1991,MA,West Brookfield town,261,1
+N1991,RI,West Greenwich town,1345,1
+N1991,CT,West Hartford town,40,1
+N1991,CT,West Haven town,101,1
+N1991,MA,West Tisbury town,324,2
+N1991,MA,Westboro town,288,1
+N1991,RI,Westerly town,1374,1
+N1991,MA,Westfield city,367,1
+N1991,MA,Westford town,195,1
+N1991,MA,Westminster town,289,1
+N1991,MA,Weston town,217,1
+N1991,CT,Weston town,19,1
+N1991,MA,Westport town,315,2
+N1991,CT,Westport town,9,1
+N1991,MA,Weymouth town,449,0
+N1991,MA,Whitman town,482,1
+N1991,MA,Winchendon town,245,1
+N1991,MA,Winchester town,225,0
+N1991,CT,Windsor Locks town,34,1
+N1991,CT,Windsor town,35,1
+N1991,MA,Woburn city,222,0
+N1991,NH,Wolfeboro town,1105,1
+N1991,CT,Woodbury town,74,1
+N1991,CT,Woodstock town,159,0
+N1991,RI,Woonsocket city,1358,1
+N1991,MA,Worcester city,277,1
+N1991,MA,Yarmouth town,186,2
+N1996,MA,Barnstable town,174,1
+N1996,MA,Chilmark town,325,0
+N1996,MA,Edgartown town,326,0
+N1996,MA,Gay Head town,327,0
+N1996,MA,Mattapoisett town,472,0
+N1996,MA,Nantucket town,430,1
+N1996,MA,New Bedford city,311,0
+N1996,MA,Oak Bluffs town,322,0
+N1996,MA,Scituate town,478,0
+N1996,MA,Tisbury town,323,0
+N1996,MA,West Tisbury town,324,0

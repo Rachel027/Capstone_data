@@ -1,0 +1,209 @@
+Table 2.1. Modeled water quality and physical data sources.,,,
+"[EPA, U.S. Environmental Protection Agency; SELFE, Semi-implicit Eularian-Lagrangian Finite-Element model; FVCOM, Finite Volume Community Ocean Model; SCHISM, Semi-implicit Cross-scale Hydroscience Integrated System Model; LA MP ICM, Louisiana Master Plan Integrated Compartment Model; ADCIRC, Advanced Circulation Model; AdH, Adaptive Hydrodynamics Model; D-WAQ, Delft Water Quality Model; EFDC, Environmental Fluid Dynamics Code; WASP, Water Quality Analysis Simulation Program; ECOM, Equation Coastal Ocean Modelstuarine Coastal Model; POM, Princeton Ocean Model; CH3D, curvilinear-grid 3D model; SFWMM, South Florida Water Management Model; FTLOADDS, Flow and Transport in a Linked Overland/Aquifer Density Dependent System]",,,
+Estuary,Model,Reference,Variables
+Laguna Madre/Baffin Bay,"2D TxBlend
+",Schoenbaechler and others (2011a),"Salinity
+Water temperature
+Water depth
+Current velocities"
+Corpus Christi Bay,"2D TxBLEND
+3D SELFE
+FVCOM","Guthrie and others (2010)
+Zhang (2010)
+Huang (2011)","Salinity
+Water temperature
+Water depth
+Current velocities"
+Aransas Bay,"2D TxBlend
+FVCOM
+
+","Guthrie and others (2010)
+Huang (2011)","Salinity
+Water temperature
+Water depth
+Current velocities"
+Copano Bay,"2D TxBlend
+FVCOM","Guthrie and others (2010)
+Huang (2011)","Salinity
+Water temperature
+Water depth
+Current velocities"
+San Antonio Bay,"2D TxBlend
+",Guthrie and others (2010),"Salinity
+Water temperature
+Water depth
+Current velocities"
+Matagorda Bay,"2D TxBlend
+",Schoenbaechler and others (2011b),"Salinity
+Water temperature
+Water depth
+Current velocities"
+Galveston Bay,"2D TxBlend
+FVCOM
+SCHISM
+
+","Guthrie and others (2012)
+Rego and Li (2010)
+Du and others (2019)","Salinity
+Water temperature
+Water depth
+Current velocities"
+Sabine Lake,"LA MP ICM
+2D TxBlend","Brown and others (2017)
+Matsumoto and others (2014)","Salinity
+Water temperature
+Water depth
+Current velocities"
+Calcasieu Lake,"LA MP ICM
+ADCIRC","Brown and others (2017)
+Cobell and others (2020)","Salinity
+Water temperature
+Water depth
+Current velocities"
+Vermilion/Atchafalaya Basin,"LA MP ICM
+AdH","Brown and others (2017)
+Bell and others (2018)","Salinity
+Water temperature
+Water depth
+Current velocities"
+Terrebonne Basin,LA MP ICM,Brown and others (2017),"Salinity
+Water temperature
+Water depth
+"
+Barataria Basin,"AdH
+DELFT2D
+DWAQ
+LA MP ICM
+","Brown and others (2019)
+Baustian and others (2018)
+
+Brown and others (2017)","Salinity
+Water temperature
+Dissolved oxygen
+Chlorophyll a
+Water depth
+Current velocities
+Oyster beds/cultch"
+Breton Sound,"AdH
+DELFT2D
+DWAQ
+LA MP ICM
+DELFT3D","Brown and others (2019)
+Baustian and others (2018)
+
+Brown and others (2017)
+Wang and others (2017)","Salinity
+Water temperature
+Dissolved oxygen
+Chlorophyll a
+Water depth
+Current velocities
+Oyster beds/cultch"
+Pontchartrain Basin,"AdH
+DELFT2D
+D-WAQ
+LA MP ICM
+ADCIRC","Brown and others (2019)
+Baustian and others (2018)
+
+Brown and others (2017)
+Bunya and others (2010)","Salinity
+Water temperature
+Dissolved oxygen
+Chlorophyll a
+Water depth
+Current velocities
+Oyster beds/cultch"
+Mississippi Sound (MS),"EFDC
+WASP
+
+ADCIRC","Kim and Park (2012)
+Linhoss and others (2016)
+Camacho and others (2015)
+Bunya and others (2010)","Salinity
+Water temperature
+Dissolved oxygen
+Chlorophyll a
+Water depth
+Current velocities
+Oyster beds/cultch"
+Mobile Bay,EFDC,"Kim and Park (2012)
+Linhoss and others (2016)
+Camacho and others (2015)
+Bunya and others (2010)","Salinity
+Water temperature
+"
+Pensacola Bay,ECOM,Arnold and others (2017),"Salinity
+Water temperature
+Water depth
+Current velocities
+Oyster beds/cultch
+"
+Choctawhatchee Bay,"ADCIRC
+DELFT3D","Cyriac and others (2020)
+Huguenard and others (2016)","Salinity
+Water temperature
+Water depth
+Current velocities"
+St. Andrew Bay,"EFDC
+WASP",Tetra Tech Inc (2009),"Salinity
+Water temperature
+Dissolved oxygen
+Chlorophyll a
+Water depth
+Current velocities"
+Apalachicola Bay,POM,Huang (2010),"Salinity
+Water temperature
+Water depth
+Current velocities
+Oyster beds/cultch"
+Apalachee Bay,ADCIRC,Lin and others (2014),"Water depth
+Current velocities"
+Suwannee River,EFDC,Bales and others (2006),"Salinity
+Water depth
+Current velocities"
+Tampa Bay,FVCOM,Chen and others (2019),"Salinity
+Water temperature
+Chlorophyll a
+Water depth
+Current velocities"
+Sarasota Bay,"CH3D
+WASP","Sheng and others (1995)
+","Salinity
+Water temperature
+Dissolved oxygen
+Chlorophyll a
+Water depth
+Current velocities"
+Charlotte Harbor,"EFDC
+WASP",EPA (2009),"Salinity
+Water temperature
+Dissolved oxygen
+Chlorophyll a
+Water depth
+Current velocities"
+Caloosahatchee River Estuary,"EFDC
+
+SFWMM","Buzzelli and others (2014)
+Buzzelli and others (2015)
+Barnes and others (2007)","Salinity
+Water temperature
+Dissolved oxygen
+Chlorophyll a
+Water depth
+Current velocities"
+Rookery Bay,FVCOM,Zheng and Weisberg (2010),"Salinity
+Water temperature
+Water depth
+Current velocities
+"
+N. Ten Thousand Islands,"EFDC
+FTLOADDS","Stith and others (2011)
+Swain and Decker (2009)
+","Salinity
+Water temperature
+Water depth
+Current velocities
+
+
+"

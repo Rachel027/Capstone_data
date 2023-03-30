@@ -1,0 +1,481 @@
+Table 3.1. Oyster model inventory.,,,,,,,,,,,,,
+"[chl a, chlorophyll a; m, meter; m2, square meter, km2, square kilometer; ppt, parts per thousand; %, percent;  USGS, United State Geological Survey; LDWF, Louisiana Department of Wildlife and Fisheries; NOAA, National Oceanographic and Atmospheric Administration; CRMS, Coastwide Reference Monitoring Stations;  VIMS, Virginia Institute of Marine Sciences;  ADCIRC, Advanced Circulation Model; EPA, U.S. Environmental Protection Agency; LUMCON, Louisiana Marine Consortium]",,,,,,,,,,,,,
+Model approach/Part of oyster life cycle,Reference,Location,Model description and objective, Model input variables,Timeframe and sources for input data in modeling study,Modeled processes ,Model output variables,Spatial description,Temporal description,Oyster model calibration/Validation,Coupled model calibration/Validation,Applicability for siting broodstock oyster reefs ,Model accessibility and ease of use
+Habitat suitability index models,,,,,,,,,,,,,
+Habitat Suitability Index ,Cake (1983),Northern Gulf of Mexico,"Discrete Habitat Suitability Index (HIS) model for larval settlement and post-settlement spat, seed and sack life stages on reefs constructed from the literature and developed to apply with field data collections in Northern Gulf of Mexico estuaries. Seminal work. ","Oyster density
+Predator (density)
+Disease (Perkinsus marinus intensity)
+Salinity
+Bottom type/xubstrate
+Oyster beds/cultch",None. This was the seminal study providing a hypothesis of species-habitat relations. ,"Suitability functions from 0 to 1
+","Oyster habitat suitability (larval settlement)
+Oyster habitat suitability (on-reef oysters)
+",None—original discrete oyster HSI model proposed for field validation across all of the Northern Gulf of Mexico ,"Single HSI score for specific location based on seasonal, annual and (or) long-term data","None for this original HSI publication, but used for many of the below cited, validated models. ",Not applicable,"Provides easy to use means to assess suitability of habitat for oysters at specific locations. 
+
+Ability to examine suitability for predicted future conditions easy.  ","Easy to construct and communicate. 
+
+Most recent HSIs have been adapted from Cake (1983) and Soniat and Brody (1988)"
+Habitat Suitability Index ,Soniat and Brody (1988),"Galveston Bay, Texas",Discrete HSI modified from Cake (1983) via field validation study of oyster density data from 38 reef and non-reef 0.1-hectare sites. ,"Oyster density
+Salinity 
+Predator (density, optional)
+Disease (Perkinsus marinus intensity, optional)
+Bottom type/substrate
+Oyster beds/cultch-percent ","Field studies for HSI validation conducted in May-June 1985 including percent bottom cultch in area, mean density of oysters, mean predator density and mean disease intensity. 
+
+Mean summer and historical salinity, and interval between killing floods.","Suitability functions from 0 to 1
+","Oyster habitat suitability  (on-reef oysters)
+Predator, disease effects optional 
+","Discrete HSI score estimated for each of 38 sites located in Galveston Bay, Texas. ","Single HSI score for specific location based on seasonal, annual and (or) long-term data",Field validation and resulting modification of Cake (1983) HIS,Not applicable,"Provides easy to use means to assess suitability of habitat for oysters at specific locations.
+
+Ability to examine suitability for predicted future conditions easy.  ","Easy to construct and communicate. 
+
+Most recent HSIs have been adapted from Cake (1983) and Soniat and Brody (1988)"
+Habitat Suitability Index ,Denapolis (2018),"Pontchartrain, Breton, and Barataria Basins, Louisiana",Expansion of Soniat and others (2013) discrete HSI using historical salinity data from multiple stations to visualize HSI scores by year based on the opening and operations of Mississippi River diversions. ,Salinity ,"Combined salinity data for 1967-2016 from USGS, Lake Pontchartrain Basin Foundation, LDWF, NOAA and CRMS field stations averaged by week. 
+
+Spatial salinity data used to estimate mean monthly salinity for spawning season, mean annual salinity, and minimum monthly salinity for warm months and for cold months ","Suitability functions from 0 to 1
+",Oyster habitat suitability (on-reef oysters),Discrete HSI score for each station location,Annual HSI maps generated from 1967-2016 station data over project domain,"HSI scores evaluated with spat, seed, and sack abundance data, cultch quality, and reef size for LDWF oyster stations from 2012-2016 ",Not applicable,"Provides easy to use means to assess suitability of habitat for oysters at specific locations. 
+
+Expansion of Soniat and others (2013) discrete HSI used with historical salinity data from multiple stations 
+
+Approach mapped HSI scores by year to create suitability profiles over project domain provides useful visual for site selection. ","Easy to construct and communicate, following Denapolis (2018). 
+"
+Habitat Suitability Index , Barnes and others (2007),"Caloosahatchee Estuary, Florida",Spatially explicit HSI for larval and adult oysters coupled to the South Florida Water Management Model (SFWMM) and salinity regression model of the estuary for evaluating changing oyster suitability for four hydrologic and land use alternatives for the C-43 West Basin Reservoir Project in Southwest Florida.,"Salinity
+Water temperature 
+Bottom type/xubstrate
+Current velocities (flow)
+Water depth","Single years of daily SFWMM hydro model outputs to drive the salinity regression model and simulate a wet year (1995), normal year (1996) and dry year (2000).
+
+Coupled SFWMM-salinity models used to generate monthly mean salinity and temperature, number of high water flow days, hard substrate presence also estimated spatially, to estimate spatial HSI scores by year","Suitability functions from 0 to 1
+",Oyster habitat suitability  (on-reef oysters),HSI scores determined by 45-m2 grid cells across estuary,Average annual HSI score estimated from monthly HSI scores dependent on monthly data. HSI models run to compare multiple single years ,No formal calibration/validation performed for this publication.  ,None noted in publication however the Caloosahatchee SFWMM simulates daily conditions from 1965-present with the estuary salinity regression model used often by agencies for water resource projects and management,"Uses environmental means to assess suitability of habitat for oysters across time and space for an estuary or region. 
+
+Ability to examine suitability for predicted future conditions easy and useful for site selection for future conditions.  ","Easy to construct and communicate, following Barnes and others (2007). 
+"
+Habitat Suitability Index ,"Soniat and others (2013), Hijuelos and others (2016), Lindquist and others (2021)",Coastal Louisiana,Spatially explicit HSI updated every 5 years for the Louisiana Coastal Management Plan modeling framework to evaluate oyster suitability across Louisiana over 50 years based on outputs generated by the Integrated Compartment Model for a suite of restoration alternatives.,"Salinity 
+
+Open water 
+Sediment accumulation ","Mean monthly salinity during spawning season, minimum monthly salinity for warm months, and for cold months, mean annual salinity, percent open water in cell, mean monthly sediment accumulation (centimeters per month) in cell added for 2023 version (Lindquist and others, 2021)","Suitability functions from 0 to 1
+","Oyster habitat suitability (on-reef oysters)
+
+",HSI scores determined by 500-m2 grid cells across coastal Louisiana,"Annual HSI score estimated from annual or decadal land/water data, and average monthly salinity data, generated by the LACMP ICM models",Qualitative spatial validation of predicted high suitability score clusters with known existing oyster grounds for simulated ICM conditions from 1995-present,ICM projected salinity and water levels calibrated to station data for most recent 10 years,"Provides means to assess suitability of habitat for oysters across time and space for an estuary or region. 
+
+Ability to examine suitability for predicted future conditions easy and useful for selection of site for future conditions. 
+
+Validated and calibrated for all Louisiana estuaries for the state coastal master plan efforts. ","Easy to construct and communicate, following Soniat and others (2013), Hijuelos and others (2016), Lindquist and others (2021)"
+Habitat Suitability Index ,"Beseres Pollack and others (2012), Reisinger and others (2020)","Mission-Aransas Estuary, Tex. (Beseres Pollack and others, 2012)
+Sabine Lake, Galveston Bay, Matagorda Bay, San Antonio Bay, Copano Bay, Corpus Christi Bay, Baffin Bay, Lower Laguna Madre, Tex. (Reisinger and others, 2020)",Geospatial HSI using GIS framework for reef suitability index (RSI) and reef quality index (RQI) models to characterize the suitability of locations based on their potential for successful reef restoration ,"Oyster size distribution
+Oyster density (live, dead)
+Oyster recruitment
+Disease (P. marinus presence)
+Salinity 
+Water temperature 
+Dissolved oxygen 
+Turbidity","GIS data layers for RSI and RQI from interpolated TPWD monthly samples at 20 dredge stations from 1986-2009 including live and dead oysters, shell lengths, and spat set, and monthly salinity, temperature, DO, and turbidity from 1975-2009, Perkinsus presence data collected quarterly at eight stations from 2004-2009 ","Suitability functions from 0 to 1
+","Oyster habitat suitability (larval + on-reef); restoration suitability index 
+Reef Quality Index RQI; larval + on-reef)
+
+",Spatially interpolated point data with rasters created using 0.1 minute (~ 180 m) resolution for GIS data input data layers for estimating RSI and RQI across the estuary,Single map of RSI and RQI for the estuary created from long-term TPWD monitoring data (1986-2009),"Qualitative spatial verification of high and low RSI and RQI scores to demonstrate the environmental, relative oyster abundance, and Perkinsus presence data across the stations",Not applicable,"Provides relatively easy to use means to assess suitability of habitat for oysters across time and space for an estuary or region. 
+
+Ability to examine suitability for predicted future conditions can be done by using numerical modeling output for the GIS spatial data layers.",Geospatial HSI using GIS framework relatively easy to construct for use across Northern Gulf of Mexico estuaries based on Swannack and others (2014) and Beseres Pollack and others (2012) publications. 
+Habitat Suitability Index ,Swannack and others (2014),"western Mississippi Sound, Mississippi;
+Lower Rappahannock River System, Chesapeake Bay (Atlantic Coast)",Geospatial HSI using GIS framework and suitability functions from Soniat and others (2012) to evaluate oyster reef suitability in a data-rich estuary and data-poor estuary to determine how data quality affects applicability for restoration ,"Oyster beds/cultch 
+Salinity","Mean salinity during spawning season, minimum annual salinity, and mean annual salinity estimated from: (1) bottom salinities generated for 870 grid cells in 1997, 1998, 1999 from the curvilinear-grid 3D model (CH3D) of the Lower Rappahannock River; and (2) Mean seasonal salinities interpolated from NOAA's National Oceanographic Data CenterODC salinity data at 0.10o and 0.25o grid cell resolution for Mississippi.
+
+Percent cultch estimated from NOAA's integrated benthic characterization data base for LRRS, and from 2005 oyster reef mapping for Mississippi Sound","Suitability functions from 0 to 1
+","Oyster habitat suitability  (larval settlement)
+Oyster habitat suitability (on-reef oysters)
+",Data layers and RSI scores by GIS grid cells covering 1) 871-km2 of the Lower Rappahannock River; 2) a 942-km2 region of the western Mississippi Sound ,"Single RSI map estimated from annual cultch/bottom type data, and mean daily and (or) monthly salinity data within a year for each system (1997, 1998, 1999)",Qualitative spatial validation of projected oyster RSI scores in Mississippi Sound compared to known locations of commercial oyster reefs,"Model runs from the CH3D hydrodynamic model of Chesapeake Bay (Kim and others, 2013) calibrated for 1993-2000","Provides relatively easy to use means to assess suitability of habitat for oysters across time and space for an estuary or region. 
+
+Ability to examine suitability for predicted future conditions.
+
+Provides example of building HSI by using numerical modeling output such as the CH3D model described in this study for the GIS environmental spatial data layers.",Geospatial HSI using GIS framework relatively easy to construct for use across Northern Gulf of Mexico estuaries based on Swannack and others (2014) and Beseres Pollack and others (2012) publications. 
+Habitat Suitability Index ,Linhoss and others (2016),"Bay St. Louis, Miss.",Spatially explicit HSI using maximum entropy theory to construct suitability maps based on oyster occurrence data and environmental conditions generated by hydrodynamic and water quality models of the estuary,"Salinity
+Water temperature
+Dissolved oxygen
+Bottom type/substrate","Daily water depth, average salinity, maximum temperature, minimum temperature, and minimum DO generated by a EFDC hydrodynamic model with a WASP water quality model of the bay for 2011 
+
+Oyster reef shapefiles from NOAA 2011 survey centered to point data for MaxEnt occurrence model ","Suitability functions from 0 to 1
+","Oyster habitat suitability (larval settlement)
+Oyster habitat suitability (on-reef oysters)
+","EFDC hydrodynamic model grid is 750 horizontal cells and two vertical layers over 168-km2 Bay St. Louis 
+
+EFDC and WASP model outputs converted to 30×30-m cells for the MaxEnt occurrence model ","Single percent cover suitability map generated for 2011, with 64 total simulations run with MaxEnt using one to six environmental factor combinations",Model optimization using ROC statistic from MaxEnt to plot true positives against false positives based on fitting to observed oyster species occurrence data,"EFDC generated surface elevation calibrated to NOAA gauge for 2011, salinity and temperature from EFDC and water quality variables from WASP calibrated to 52 MDEQ monitoring stations from March-November 2011 ","Provides an alternative machine learning method for describing percent cover suitability map for oysters across time and space for an estuary or region. 
+
+Provides ability to examine suitability for predicted future conditions can be done by using numerical modeling output (that is, EFDC and WASP) for coupling with the MaxEnt grid.","MaxEnt is a machine learning method, and a lesser known alternative to the typical HSI formulations and methods. 
+ 
+Open source software available on github for this approach. Requires more effort that other HSI approaches. "
+Habitat Suitability Index ,Preau and others (2016),"Pontchartrain and Breton Sound Basins, La.","Geospatial HSI using GIS framework to compare projected oyster suitability based on (1) the monthly salinities from historical spatfall and seed production data, and (2) salinity suitability functions from Soniat and others (2013)  ",Salinity,"Bi-weekly surface salinity maps from LPBF Hydrocoast data used from January 2013 through December 2015 to calculate and compare maps of salinity suitability in 2013, 2014, and 2015 for (1) mean monthly salinity; and (2) mean salinity during spawning season, minimum monthly salinity, and average annual salinity (Soniat and others, 2013) ","Suitability functions from 0 to 1
+","Oyster Habitat Suitability (larval settlement)
+Oyster Habitat Suitability (on-reef oysters)
+",Optimal salinity suitability classes by 500-m grid cells for Pontchartrain/Breton Sound Basin domain ,"Single map for optimal oyster salinity suitability generated for 2013, 2014, 2015",Not applicable,Not applicable,"Provides a relatively easy to use means to assess suitability of habitat for oysters across time and space for an estuary or region. 
+
+This example limited oyster suitability factors to salinity; assumes salinity is the only restricting factor so not applicable more broadly. ",Geospatial HSI using GIS framework relatively easy to construct for use across Northern Gulf of Mexico estuaries. 
+Habitat Suitability (Larval),"Milroy and others (2020a, b, c)","Louisiana, Mississippi, Alabama coastal shelf waters",Spatially explicit larval HSI using modeled coastal drifter location data coupled to simulated salinity and temperature fields generated from the Coupled-Ocean-Atmosphere-Wave-Sediment-Transport (COAWST) model ,"Salinity
+Water Temperature","Coastal drifters were modeled from May through October 2017 using the COAWST model, with generated hourly salinity and temperature fields based on the modeled drifter locations","Suitability functions from 0 to 1
+",Oyster Habitat Suitability (Larval) ,Larval HSI score estimated for drifter location and trajectory through time based on coupled COAWST model generated salinity and temperature,Hourly HSI score by larval drifter location and trajectory in 2017 over 28-day simulations for larval period,No formal calibration/validation performed for this publication. ,"None noted for this study listed on GRIIDC and using the COAWST model for the MS Sound and Bight (for example, Cambazoglu and Wiggert, 2020; Cambazoglu and others, 2020a, b, c, d)","This is an HSI type approach but for larvae, including water quality through drifter tracks to estimate larval survival.
+
+Useful for thinking about larval movement including survival and for examining connectivity of resources. ","Ongoing works listed on GRIIDC as Milroy and others (2020a, b, c)"
+Habitat Suitability Index ,Battista (1999),"Maryland (Chesapeake Bay), Atlantic Coast ","Geospatial HSI using Geographic Information System (GIS) framework to categorize oyster suitability based on drought, average, and flood river flow conditions in the estuary ","Disease (P. marinus intensity)
+Salinity
+Water temperature
+Dissolved oxygen
+Chlorophyll a
+Bottom type/substrate
+
+Total suspended solids 
+","Salinity, temperature, water depth (meters), total suspended solids (TSS, grams per liter), bottom dissolved oxygen (DO, milligrams per liter), chl a (millgrams per cubic meter), and Perkinsus marinus intensity from digital environmental grids made from Chesapeake Bay Program (CBP) data sets for 18 stations from 1984-1996
+ 
+Bottom substrate type data from MD DNR bottom survey (1974-1983) 
+
+Susquehanna River flow data from USGS from 1968-1996 to categorize drought, average, and flood river flow ","Suitability functions from 0 to 1
+",Oyster habitat suitability (On-reef oysters),"Continuous surface grids with cell size resolution of 2,500 m2 for project domain","Single HSI map produced for winter, spring, summer, fall under drought, average, and flood flow years (12 total maps), and an average annual map for drought, average, and flood flow year",No formal calibration/validation performed for this publication. ,Not applicable,Additional example of the geospatial HSI approach used in the Atlantic Ocean and summarized in table to provide additional summary information. ,Similar approaches exist for the Northern Gulf of Mexico. 
+Habitat Suitability Index ,Starke and others (2011),"Hudson River Estuary, New York, Atlantic Coast",Geospatial HSI using GIS framework to identify suitable regions for oyster restoration in the estuary,"Salinity
+Water Depth
+Bottom Type/Substrate
+","Sedimentary environment, sediment type, and water depth data subsampled from March through November via the New York State Department of Environmental Conservation GIS Clearinghouse between 1998 and 2003 
+
+Mean bottom salinity across the study area calculated from long-term simulation of daily salinity by 2D hydrodynamic model from 1918-2005 .","Suitability functions from 0 to 1
+","Oyster habitat suitability (On-reef oysters)
+
+",Input data converted to raster format (10-m cell size) over Hudson River domain to estimate RSI score by cell,"Single RSI map generated for time period. RSI maps demonstrated for all four data layers, and each data layer, based on reclassified suitability values using weighting scenarios and salinity uncertainty for suitability.",No formal calibration/validation performed for this publication. ,None noted in this publication however the 2D hydrodynamic model simulating long-term conditions for Hudson River from 1918 to 2005 is maintained and used for state water resources and restoration projects,Additional example of the geospatial HSI approach used in the Atlantic and summarized in table to provide additional summary information ,Similar approaches exist that are calibrated for the Northern Gulf of Mexico. 
+Habitat Suitability Index ,Theuerkauf and Lipscius (2016),"Great Wicomico River in Chesapeake Bay, Maryland., Atlantic Coast",Geospatial HSI using GIS framework to demonstrate quantitative validation of projected oyster reef HSI scores with live oyster density data collected from a network of low relief and high relief sanctuary reefs ,"Salinity
+Bottom Type/Substrate
+Water Depth ","Bottom type variables from 2009 NOAA acoustic seabed mapping and VIMS 2012 observations for oyster sanctuary network
+
+Mean bottom salinity data from VIMS hydrodynamic model developed for Chesapeake Bay 
+
+Bathymetric data from NOAA Chesapeake Bay DEM ","Suitability functions from 0 to 1
+",Oyster habitat suitability (On-reef oysters),All point data converted to produce a 1×1-m raster grid of project domain ,Single map of HSI scores generated for 2011 ,Validation showed live oyster density data from 2011 VIMS surveys of low relief and high relief reefs in a sanctuary network were a sigmoidal function of projected HSI scores,None mentioned for VIMS hydrodynamic model of Chesapeake Bay tributaries ,Additional example of the geospatial HSI approach used in the Atlantic and summarized in table to provide additional summary information ,Similar approaches exist for the Northern Gulf of Mexico
+Habitat Suitability Index ,Puckett and others (2018),"Pamlico Sound, N.C., Atlantic Coast",Geospatial HSI using GIS framework to evaluate oyster metapopulation persistence. Input parameters and weights decided from expert stakeholder meetings for oyster reef restoration,"Salinity
+Dissolved oxygen
+Bottom type/substrate
+Water fepth
+Proximity to stockpile sites
+
+Sanctuary, cultch and natural reef larval export
+Sanctuary , cultch and natural reef larval import
+Boat ramp proximity 
+SAV presence/location
+Private lease location 
+Nursery habitat location 
+Military zone location
+Navigational channel location","Summer salinity from 1987-2008, fall minimum DO from 1996-2014 and substrate type data from NC DMF surveys 
+
+Water depth from NOAA bathymetry 
+
+Larval import and export at reefs from May through August 2006-2010 from coupled hydrodynamic-particle tracking model 
+
+Material stockpile sites, SAV, private leases, nursery areas from NC DMF surveys, public boat ramps from NC WRC,  military zones from NC DEQ, navigation channels from USGS ","Suitability functions from 0 to 1
+",Oyster habitat suitability score (larval + on-reef oysters),"GIS-based geospatial grid of 5,987 1-km2 cells, which matched the spatial extent of the hydrodynamic and larval particle tracking model",Single map for HSI scores based on the combined data collection period,Validated model by demonstrating the HSI scores were a positive exponential function of normalized oyster density data on the oyster sanctuary reefs,"Hydrodynamic and oyster larval transport model previously validated for 2007 (Haase and others, 2012)","Additional example of the geospatial HSI approach used in the Atlantic and summarized in table to provide additional summary information …..............................................
+Included expert stakeholder group to define 17 suitability variables and their weights for oyster reef restoration program","Similar approaches exist for the Northern Gulf of Mexico, but not with stakeholder input, and the number of logistical variables incorporated. "
+Habitat Suitability Index ,Theuerkauf and others (2019),"Pamlico Sound, North Carolina, Atlantic Coast","Geospatial HSI using GIS framework for water filtration as an ecosystem service (ES) of reefs compared to and incorporated into the existing HSI for metapopulation persistence (see Puckett and others, 2018)","Chlorophyll a
+Dissolved oxygen
+Current velocities (flow) ","September monthly mean and % coeefficient of variation of chlorophyll a concentration from 300-m resolution satellite images from 2003 to 2011 
+
+Bottom water flow velocity from ADCIRC model for September 2014, 2015 and 2012 
+
+DO point data in fall at 522 stations between 1996 through 2014 ",Ecosystem Service/Suitability functions from 0 to 1,Oyster habitat suitability (larval + on-reef oysters),"GIS-based grid of 5,987 1-km2 cells ","Single map for HSI scores for the each of the three HSIs (ES HSI, metapopulation persistence HSI, and combined HSI) ",No formal calibration/validation performed for this publication.  ,"3D ADCIRC model previously validated for Pamilico Sound (Luettich and others, 1992, 2002)",Additional example of the geospatial HSI approach used in the Atlantic and summarized in table to provide additional summary information ,Similar approaches exist for the Northern Gulf of Mexico
+Larval models ,,,,,,,,,,,,,
+Larval Growth and Vertical Movement Model ,"Dekshenieks and others (1993, 1996, 1997)","Chesapeake Bay, Atlantic Coast ",Size-structured larval daily growth model with size-dependent movement and predation in a vertically resolved water column to evaluate larval oyster vertical distribution patterns in the water column,"Predation (mortality)
+Salinity
+Water Temperature
+Food availability
+
+Turbidity","10-m water column with 0.5-m vertical resolution for salinity, temperature, turbidity, food availability and predation mortality. Turbidity, food availability, and predation mortality change vertically and over time with salinity and temperature for 35 days ","Larval growth
+Larval mortality
+Larval behavior","Larval release location
+Larval dispersal
+Settlement/recruitment",Twenty 0.5-m vertical layers in a 10-m water column ,12-minute larval model timestep over 35-day model simulations ,"Modeled larval oyster sizes with vertical distribution verified with observed distribution of oyster size classes in 3-m water column for Great Bay, New Jersey (Carriker, 1951) in Dekshenieks and others (1993)",Not applicable,"Provides biological information on larval oyster growth and size-dependent vertical behavior with cues to temperature, salinity, turbidity and food that can be added to oyster larval transport models. ",Dekshenieks and others (2000) incorporates size-dependent movement into larval transport model for Galveston Bay.
+"Larval Transport Model 
+(with behavior) ",North and others (2008),"Chesapeake Bay Estuary, Atlantic Coast ",Vertical behavior for oyster larvae from laboratory studies added to the particle-tracking module (LTRANS) for the Regional Oceans Model System in Chesapeake Bay Estuary complex to determine if differences in larval behavior influence dispersal and encounters with suitable settlement habitat,"Oyster beds/cultch
+Salinity
+Current velocities (x,y,z)
+Current velocities (x,y turbulence)","Regional Ocean Model System (ROMS) simulated current velocities, turbulence and salinity from 1995 to 1999 to drive larval transport model. 
+
+GIS layer of oyster cultch polygons from bay bottom surveys conducted by Maryland in late 1970s to 1980, and by Virginia in the 1990s ","Larval transport
+Larval growth
+Larval behavior","Larval release location 
+Larval dispersal
+Settlement/recruitment ",Spatially explicit 3D particle tracking model in ROMS with 1-km horizontal grid spacing and 20 vertical layers for Chesapeake Bay.,Internal timestep of LTRANS is 120 seconds with 10-minute output timesteps for seasonal simulations of larval transport from June through August each year from 1995-1999.,No formal calibration/validation performed for this publication.,"ROMS Chesapeake Bay model (Li and others, 2005) previously validated for water elevations, current measurements, and long-term salinity and temperature time series data collected at stations by the Chesapeake Bay Program","Provides model of larval transport, connectivity and spat settlement across a network of reefs which are key to consider for broodstock reefs. 
+
+Incorporates larval behavior. 
+
+Provides seminal oyster larval transport modeling study often used in conceptualization and development of other larval transport models. ","Open source ROMS and off-line LTRANS code available online.
+
+ROMS is one of many hydrodynamic modeling approaches available for use in the Northern Gulf of Mexico. "
+"Larval Transport Model
+(with growth and size-dependent behavior) ","Kim and others (2010, 2013)","Mobile Bay and eastern Mississippi Sound, Alabama, Northern Gulf of Mexico","Vertical behavior for oyster larvae added to the particle-tracking module of the Environmental Fluid Dynamics Code (EFDC) hydrodynamic and eutrophication model of Mobile Bay and Mississippi Sound to determine if larval transport describes persistent gradient in spat settlement decreasing from west to east, evaluate the seasonal variations and how flushing rates affect larval transport and retention, and determine if movement behavior influences transport ","Water temperature
+Current velocities (x, y, z)
+Current velocities (turbulence diffusivities) ","EFDC hydrodynamic and eutrophication model run for 2006 to drive larval transport model processes 
+
+20-30 years of wind speed and direction, tidal amplitude, and river discharge data were used to create forcing functions in the EFDC to test how varying physical conditions affected retention and flux of larvae over additional 10-day simulations","Larval transport
+Larval behavior","Larval release location
+Larval dispersal
+Settlement/recruitment","Spatially explicit particle tracking model in 21,705 surface-water cells with five vertical layers, with grid cell size ranging from 58 m to 2,000 m; spatial aggregation of observed and model predicted results by five larger zones in the project domain for larval transport model validation","Tracking daily larval transport over 215 days from April 1 to November 1, 2006; model validation simulations between predicted and observed data on time scale of overall average, season, and by oyster survey period",Validation of predicted oyster larval concentrations and spat settlement by five aggregated zones compared to observed bivalve larval concentration and spat settlement data from 18 stations collected every 3 weeks throughout 2006 ,"Noted in publication that EDFC surface elevation and salinity, mass transport was represented well for the system (Kim, 2009; Kim and Park, 2012)","Provides information on larval transport, connectivity and spat settlement across a network of reefs. 
+
+Ability to examine connectivity and recruitment for predicted future conditions by using larval transport module with growth and behavior added in 3D hydrodynamic or circulation models","EFDC is one of many hydrodynamic and eutrophication modeling approaches available for use in the Northern Gulf of Mexico 
+
+EFDC models have been set up for several Northern Gulf of Mexico estuaries and coastal regions by engineering firms for state and federal projects but are not available across all estuaries. "
+Larval Transport Model ,Murray and others (2015),"Louisiana, Mississippi, Alabama nearshore and subtidal waters, Northern Gulf of Mexico","Oyster larval particle trajectories tracked in 2D particle tracking module of ADCIRC set up for 17 subtidal and nearshore subbasins from Vermilion Bay, Louisiana through Mobile Bay, Alabama to estimate the average settlement proportions of oyster larvae per subbasin for the Natural Resource Damage Assessment for DeepWater Horizon ","Oyster bed/cultch 
+Current velocities (x, y)",ADCIRC runs from April through November of 2011 ,"Larval transport
+","Release location
+Dispersal
+Settlement/recruitment
+
+","Larval distribution and settlement recorded for 17 nearshore and subtidal subbasin polygons overlaid on ADCIRC model grid of the Louisiana, Mississippi, Alabama region. ADCIRC grid has mesh sizes as fine as 20-30 m in some nearshore regions",27 model runs for larval releases during spring and neap tidal cycles for 21-day simulations tracking daily larval particle positions and settlement among subbasin polygons in the Spring (April-June) and annual (April-November) time periods for 2011,No formal calibration/validation performed for this publication ,None mentioned in publication. ,Spatial scale of study is likely too large for regional-scale larval transport and settlement evaluation on specific reefs but potentially useful to think about connections within and between estuaries.,"ADCIRC is one of many hydrodynamic modeling approaches available for use in the Northern Gulf of Mexico. 
+
+ADCIRC models have been set up for several Northern Gulf of Mexico estuaries and coastal regions by engineering firms for state and federal projects but are not available across all estuaries. "
+"Larval Transport Model
+(with growth and size-dependent behavior) ", Arnold and others (2017),"Pensacola Bay System, Fla., Northern Gulf of Mexico","Larval oyster particle tracking model tracking age, size, and vertical swim speed coupled to the ECOM hydrodynamic model to hindcast larval dispersal patterns and recruitment among reef stations in Pensacola Bay during four discrete 20-day events in August and October 2007, and June and July 2008","Salinity (food proxy)
+Water temperature
+Current velocities (x, y, z) ",ECOM runs from January 2007 through June 2008 to drive larval transport model,"Larval transport
+Larval mortality
+Larval behavior","Release location
+Dispersal
+Settlement/recruitment
+
+
+","Spatially explicit 3D ECOM comprised of 2,533 cells ranging in size from 200 to 975 m with 10 vertical layers for the model domain",15-second time steps for four 20-day larval transport model simulations based on release dates using ECOM hydrodynamics from May 2007 through July 2008,Laval transport model compared to monthly oyster larval abundance from 18 stations and spat settlement collected at 15 stations in the estuary,ECOM calibrated to monthly salinity by depth from May 2007 through July 2008 for 20 stations in the Pensacola Bay System; NOAA station data from May 2007 through June 2008 used for ECOM model calibration of water elevation and velocities,"Provides information on larval transport, connectivity and spat settlement across a network of reefs. 
+
+Ability to examine connectivity and recruitment for predicted future conditions by using larval transport module with growth and behavior in 3D hydrodynamic or circulation models critical for siting broodstock reefs. ","ECOM stems from POM with Princeton Ocean Model developed for many regions, including the Gulf of Mexico, in the late 1980s and 1990s
+
+
+ "
+Larval Transport Model (with depth-dependent mortality and behavior) ,Puckett and others (2014),"Pamlico Sound, N.C., Atlantic Coast","Larval oyster daily mortality and depth-regulated behavior from Dekshenieks and others (1996) added to particle tracking model tracking age, size, and vertical swim speed (Narvaez and others, 2012) coupled to ADCIRC 3D hydrodynamic model employing a simulation design to examine (1) natal reserve location, (2) spawning date, (3) particle behavior, (4) spatiotemporally explicit reproductive output, and (5) larval mortality affecting larval oyster dispersal and connectivity patterns among ten reef sites","Salinity (predation proxy)
+Current velocities (x, y, z)
+Current velocities (x, y diffusion) ","ADCIRC runs from May through August 2006 through 2010 with larval particles released from 10 oyster reserves for May-June and then July-August 2006-2010 
+
+Reproductive output based on oyster fecundity per square meter data from May 2007-2008 and July August 2007 at six reserves (Mroch and others, 2012)","Larval transport
+Larval mortality","Larval release location
+Larval dispersal
+Settlement/recruitment
+
+","Spatially explicit particle tracking model in 41,330 ADCIRC elements with varying resolution from 0.3 to 1 km and 7 vertical layers for larval transport across the network of 10 reserve reefs","21-day simulations tracking daily larval positions, mortality, dispersal and settlement/recruitment occurring across 10 reef polygons","Particle tracking model used to simulate oyster larval transport was previously validated with surface drifters in Haase and others, 2012","ADCIRC validated in Pamlico Sound and adjacent waters in North Carolina (Luettich and others, 2002; Haase and others, 2012)","Provides information on larval transport, connectivity and spat settlement across a network of reefs.
+
+Ability to examine connectivity and recruitment for predicted future conditions by using larval transport module with added mortality and behavior in 3D hydrodynamic or circulation models.","ADCIRC is one of many hydrodynamic modeling approaches available for use in the Northern Gulf of Mexico.
+
+ ADCIRC models have been set up for several Northern Gulf of Mexico estuaries and coastal regions by engineering firms for state and federal projects"
+Larval Transport Model,"Cambazoglu and others (2020a, b, c, d)","Louisiana, Mississippi, Alabama coastal shelf waters","Coastal larval particle locations tracked hourly in 3D particle tracking module of Coupled-Ocean-Atmosphere-Wave Sediment Transport Model (COAWST) set up for Mississippi Bight and Sound from Mobile Bay, Alabama to the east of the Mississippi River Delta in Louisiana to examine trajectories and dispersal patterns over time ","Salinity
+Water temperature
+Current velocities (x,y,z)
+Water depth 
+Oyster bed/cultch","Coastal drifters were modeled from May through October 2015, 2016, and 2017 using the COAWST model with particle release locations at 24 known oyster reefs in the Mississippi Sound and Bight","Larval transport
+","Larval release location 
+Larval dispersal
+Settlement/recruitment
+",Spatially explicit particle tracking in COAWST model with 400-m spatial resolution and 24 vertical layers across the Mississippi Sound and Bight,"Hourly larval drifter locations with trajectories tracked from May 14-July 14 of 2015, 2016, and 2017 with salinity, temperature, currents, and depth generated at 5-minute intervals with larval locations",No formal calibration/validation performed for this publication. ,"None noted for the ongoing studies by Cambazoglu and others (2020a, b, c, d) listed on GRIIDC ","Provides information on passive larval transport, connectivity and settlement across a network of 24 known reefs located in coastal shelf waters.
+
+Ability to examine coastal connectivity potential across estuaries or reefs for predicted future conditions by using larval transport module with added habitat suitability submodel based on temperature and salinity from Milroy and others (2020a, b, c)","Ongoing works listed on GRIIDC as Cambazoglu and others (2020a, b, c, d)"
+On-reef oyster models,,,,,,,,,,,,,
+"On-Reef Bioenergetics (Dynamic Energy Budget, DEB) Model ","Lavaud and others (2017, 2021)",Northern Gulf of Mexico,"Bioenergetics-based DEB model simulating energy densities available for structure and somatic growth maintenance, reproduction and gametes, and accounting for low salinity effects on filtration and through somatic maintenance (measured by respiration) to simulate observed growth and reproduction at two study sites in coastal Louisiana and statistically determine the best way to implement salinity effects","Salinity 
+Water temperature
+Food availability","Daily mean salinity, temperature, and chl-a from USGS and LUMCON continuous recorder stations","Oyster growth
+Oyster reproduction
+Oyster filtration
+Oyster respiration","Oyster size
+Oyster biomass
+Oyster reproduction (gonad dry weight) ",Single point model for individual oyster growth and reproduction,Daily energy densities and flux rates simulated over single years for DEB model,"Calibrated for shell height, tissue dry weight and gonad dry weight using oysters from 2 sites in coastal Louisiana; Validated for oysters from 6 sites across Northern Gulf of Mexico ",Not applicable,"Provides information on physiological growth and reproduction of oysters based on temperature, salinity and food availability.
+
+Ability to examine future effects on oyster growth and reproduction by using multiple DEB point models for reefs coupled with a 2D or 3D hydrodynamic or circulation models with water quality for chl-a concentrations.
+
+Easily adaptable to different populations or organisms. ","DEB already calibrated as validated for several oyster sites in the Northern Gulf of Mexico. 
+
+DEB code is open source and available online to run in R, Matlab or Octave software. Mechanistic approach is transferable. "
+On-Reef Bioenergetics (Dynamic Energy Budget) Model ,Filgueira and others (2014),"Richibucto Estuary, Eastern Canada, Atlantic Coast",Spatial ecosystem-DEB model to evaluate oyster-phytoplankton interaction and oyster carrying capacity using a DEB model for three spatial regions (point models) coupled with a hydrodynamic-biogeochemical nutrient-phytoplankton-zooplankton-detritus (NPZD) model of the estuary ,"Water temperature
+Food availability
+Water depth
+Current velocities (x, y) ","RMA hydrodynamic model generated water elevation and current velocities, temperature from July through October 1990 and 1991 
+
+NPZD for chl a concentration from July through October for 1990 and 1991","Oyster growth
+Oyster reproduction
+Oyster filtration
+Oyster respiration","Oyster size
+Oyster biomass
+","2D RMA model coupled with NPZD model for three spatial boxes in the estuary, with an oyster DEB point model for each spatial box","Daily energy densities and flux rates simulated over 5 months in 1990 and 1991 for calibration, then over 50 days in 2012 (August-September) ",Calibrated oyster DEB model to shell length and tissue mass using oyster data from sites pooled for each of three areas in estuary from 1990 and 1991,"RMA hydrodynamic model validation in Guyondet and others (2013)
+Validation of the NPZD by comparing to observed chl a concentration and oyster growth at three sampling stations",Ability to examine future effects on oyster growth and reproduction by using multiple DEB point models for reefs coupled with a 2D or 3D hydrodynamic or circulation models with water quality or NPZD model for chl-a or phytoplankton concentrations,"DEB from Lauvaud and others (2017) already calibrated and validated for several oyster sites in the Northern Gulf of Mexico.
+
+Water quality and NPZD models exist for some estuaries in Northern Gulf of Mexico which would be required to add plankton model. "
+On-Reef Size-Structured Population Model ,"Powell and others (1992, 1996, 1997) and Hoffmann and others (1992, 1994)","Galveston Bay, Tex., Northern Gulf of Mexico ","Size-structured oyster reef population model comprised of 11 size classes and developed over several published studies to simulate changes in oyster size class biomass and structure due to ingestion and somatic growth, reproduction, and mortality due to Perkinsus, predation mortality, and extreme environmental conditions ","Salinity 
+Water temperature 
+Chlorophyll a
+Current velocity
+Water depth
+
+Turbidity ","Daily temperature, salinity, water velocity, chl a concentration, and turbidity data collected for various regions and time periods in the 1980s and 1990s for Galveston Bay, Chesapeake Bay, and Laguna Madre affect food supply, oyster filtration and somatic growth, reproduction, and mortality due to disease, predation, and extreme weather ","Oyster growth
+Oyster reproduction
+Oyster filtration
+Oyster respiration","Oyster size 
+Oyster biomass
+Oyster reproduction (gonad dry weight) 
+Reef oyster density
+Reef oyster biomass
+Reef reproduction
+Reef recruitment",Reef population is a single point model that has been applied to simulate multiple reef population point models within a hydrodynamic model grid in Galveston Bay,Daily oyster model time step run over multiple consecutive years,"None mentioned although size-structured oyster model parameters and initial densities, size distributions set from field study data",Not applicable,"Provides information on oyster size classes and population structure that can be used for initialization, verification and validation with field data.
+
+Provides information on reef oyster growth, reproduction, and mortality based on temperature, salinity and food availability.
+
+Ability to examine future effects on reef oyster size structure and biomass by using multiple reef population models for reefs coupled with a 2D or 3D hydrodynamic or circulation models with water quality or NPZD model for chl-a or phytoplankton concentrations","Size-structured reef population model already developed from field data in Galveston could be calibrated and validated for other estuaries in Northern Gulf of Mexico.
+
+Hydrodynamic, water quality and NPZD models exist for some estuaries in Northern Gulf of Mexico to simulate food availability to reef populations"
+On-Reef Size-Structured Population Model Northern Gulf of Mexico,Wang and others (2017),"Breton Sound Estuary, La. with similar analysis for Apalachicola Bay, Fla. (Wang and others, 2008) ","Coupled Delft3D-FLOW hydrodynamic model, Delft3D-WAQ water quality model, and oyster reef population model originally developed for Galveston Bay (for example, Powell and others, 1992; Hofmann and others, 1992, 1994; and Klinck and others, 1992) and previously modified for Apalachicola Bay, Fla. (Wang and others, 2008) to predict oyster growth rate and production responses to small and large-scale river diversions under low and high relative sea level rise scenarios","Salinity 
+Water temperature 
+Chlorophyll a
+Current velocity
+
+Turbidity 
+","Daily temperature, salinity, turbidity, chl a, and current velocity generated by Delft3D-Flow and D-WAQ for 2009 drive oyster population model ","Oyster growth
+Oyster mortality
+Oyster reproduction
+Oyster filtration
+Oyster respiration","Oyster size 
+Oyster biomass
+Oyster reproduction (gonad dry weight) 
+Reef oyster density
+Reef oyster biomass
+Reef reproduction
+Reef recruitment",Varying spatial resolution for Delft3D models with finest resolution of 20 m for Breton Sound Estuary; spatial oyster model run using regular grid with 500×500-m cell size with depth averaged results from Delft3D models,Weekly timestep for oyster population model over single simulated years to compare with 2009 baseline year,Calibrated and validated using a non-spatial daily oyster model to compare against site-specific observed oyster growth and mortality field data with environmental data for 2009,"Delft3D-FLOW calibrated and validated to water levels in 2009 and from August through October 2012 for Hurricane Isaac over multiple CRMS stations (Hu and others, 2015); Delft3D-WAQ calibrated and validated to observed salinity, TSS, and Chl-a at 16 water quality stations (Lundberg and others, 2014) and 22 LDWF monitoring stations in 2009","Provides information on oyster size classes and population structure that can be used for initialization, verification and validation with field data.
+
+Provides information on reef oyster growth, reproduction, and mortality based on temperature, salinity and food availability.
+
+Ability to examine future effects on reef oyster size structure and biomass by using multiple reef population models for reefs coupled with a 2D or 3D hydrodynamic or circulation models with water quality or NPZD model for chl-a or phytoplankton concentrations","Wang and others, 2008 and 2017 modified the original Powell and Hoffmann reef population model version for spat, seed and sack oyster size classes for coupling with hydrodynamic and water quality models across Northern Gulf of Mexico estuaries. "
+On-Reef Size-Structured Population Model ,Weber and others (2013),"Chesapeake Bay, Atlantic Coast","Size-structured oyster reef population models comprised of 5-mm size classes simulating annual growth, spawning, spat set modified by shell planting, and size-based mortality due to dermo and MSX disease for 8,480 oyster bars in order to evaluate abundance of spat, small, and market-size oysters throughout 10-year period for cultch restoration alternatives and no-harvest scenarios under the Environmental Impact Statement (EIS) and Risk Assessment for Chesapeake Bay Oyster Restoration","Disease prevalence (P. marinus, MSX)
+Salinity
+","Oyster monitoring data for model initialization from 2004 from the MDNR in 5-mm size class from dredge data for 2,882 bars, and 2004 VIMS Chesapeake Bay Oyster Population Estimation for 5,598 bars
+
+Weather (wet, dry, normal) years classified based on USGS discharge data from 1937 to 2005 used to set spat set with North and others (2008) larval transport model among bars, and salinity fields which affect oyster mortality from disease on for oyster bars and the probability of killing freshets by year ","Oyster growth
+Oyster reproduction
+Oyster mortality","Oyster size 
+Oyster biomass
+Oyster reproduction 
+Reef oyster density
+Reef oyster biomass
+Reef reproduction
+Reef recruitment","8,480 oyster bars tracked annually as populations with results aggregated to larger salinity zones (< 11 ppt, 11-15 ppt, and ? 15 ppt) in Chesapeake Bay",Annual time step over 10 years,None mentioned although population models initialized and parameterized based on data collected at oyster bars,Not applicable,"Used reef-specific data to initialize reef population models and then used USGS flow data to classify estuarine salinity fields by wet, dry, and normal years in estuary which affected oyster disease prevalence and killing freshets, spat set across oyster bars ",Size-structured reef population model already developed from field data in Galveston from Powell and Klinck studies that could be calibrated and validated for other estuaries in Northern Gulf of Mexico 
+On-Reef Shell Budget Model (SBM),"Soniat and others (2012a, 2014)","Breton Sound Estuary, La. with model application to determine no net shell loss and total allowable catch across public oyster grounds in all Louisiana coastal basins","Size-structured oyster shell stock assessment model comprised of 5-mm size classes simulating monthly time-dependent growth based on the von Bertalanffy equation, natural juvenile and adult mortality (with ranges), fishing mortality, cultch density, and sacks of seed and sack oysters fished for each year based on the concept of no net shell loss, and set up with initial oyster densities and lengths collected from square-meter sampling stations conducted in July on the public seed oyster grounds in coastal basins by the Louisiana Department of Wildlife and Fisheries.","Oyster densities (number live per square meter)
+Oyster shell lengths (mm)
+Cultch density (number dead shells per square meter). 
+","LDWF data from station samples collected on each reefs within the public oyster grounds by coastal basin in July by year are available and directly inputted to the SBM as initial oyster densities, shell lengths, and cultch densities","Oyster growth
+Oyster mortality
+Fishing mortality
+","Cultch density and mass
+Number of sacks of seed and sack oysters
+Oyster densities","Single SBM to describe change in cultch density and mass, and total allowable catch (harvest) by reef, based on LDWF station data collected on reefs (3-5 replicate square meter samples per station)","Monthly time step for one-year simulation based on July data to initialize model starting month of August
+","None although the SBM for reefs in Louisiana coastal basins initialized with LDWF oyster square meter station data, and SBM predicted shell loss and (or) gains and total allowable catch (harvest of seed and sack oysters as fraction of cultch) compared to annual LDWF oyster stock assessment and harvest estimates",Not applicable,"Uses reef-specific data to initialize reef shell budget model to determine change in cultch density and mass, and number of seed and sack oysters harvested by month for each year. SMB determines the changes in cultch based on gains due to natural morality and losses to due to fishing mortality, and whether a reef is fishable (increases in cultch) or not (decreases in cultch); SBM might be an important component to included in determining reef maintenance",SBM already developed and used with LDWF data and annual stock assessments to determine annual changes to cultch and total allowable catch for reefs in Louisiana 
+On-Reef Individual-Based Model using DEB coupled with shell budget model and predation,Yurek and others (2021),"North Inlet, Winyah Bay, South Carolina","Individual-based model using coupled DEB model with shell budget model to simulate 3D oyster reef structural mechanics and individual density/biomass/maintenance. DEB model for simulating energy fluxes available for structure and somatic growth maintenance, reproduction, and accounting for temperature affecting all energy fluxes and salinity affecting oyster filtration. Accounts for natural and burial mortality, predator occurrence and density and therefore predation mortality on oyster size classes also affected by salinity and temperature. Larval settlement to reef based on available area. Shell budget model simulates shell accretion due to oyster mortality and degradation modified by salinity.","Salinity
+Water Temperature
+Food Availability
+Predators
+","Daily salinity, temperature, and chl-a time series for model runs estimated from field data collected over oyster reefs in North Inlet, Winyah Bay, S.C.","Oyster growth
+Oyster reproduction
+Oyster filtration
+Oyster somatic maintenance
+Oyster recruitment 
+Oyster natural, burial, and             predation mortality 
+Oyster reef accretion
+Oyster reef geomorphology Oyster reef degradation ","Oyster size, age
+Oyster biomass
+Oyster reproduction (gonad dry weight) 
+Larval population reef Oyster density
+Reef oyster biomass
+Reef reproduction
+Reef recruitment 
+Reef height, volume
+Reef live layer volume Reef crushed shell volume Reef crushed shell and valve biomass
+Reef area for settlement",Single 3D reef point model simulating live oyster and reef shell biomass,Daily timestep simulated over 22 years for 1997-2018,"Component DEB model validated to oyster growth rates from 2-year field study in North Inlet (Dame and others, 2000); sensitivity analysis performed on key reef output variables ",Not applicable,"Provides information on physiological growth and reproduction of oysters based on temperature, salinity and food availability; Provides information on reef shell biomass, elevation and acreage available for larval settlement. 
+Reef shell biomass and acreage also determined, and used to estimate larval settlement.
+Provides estimate of reef long-term persistence and uncertainty in accretion/degradation.
+Ability to examine future effects on oyster growth and reproduction by using multiple DEB point models for reefs coupled with a 2D or 3D hydrodynamic or circulation models with water quality for chl-a concentrations.
+Adaptable to different estuaries if time series for temperature, salinity, chl-a available, and predators are known. ","Yurek and others (2021) validated model for oyster growth and ran environmental simulations for North Inlet, SC"
+Metapopulation Models,,,,,,,,,,,,,
+"Metapopulation 
+(Coupled larval transport (with growth and mortality) with size-structured reef population model for full life cycle) ",Dekshenieks and others (2000),"Galveston Bay, Tex., Northern Gulf of Mexico ","Size-structured larval growth and transport model derived from Dekshenieks and others (1996) coupled with size-structured reef population point models (Powell, Hoffmann, Klinck and others studies above) located within the grid of a finite element hydrodynamic model of the estuary to investigate how changing environmental conditions affect population structure of oysters in Galveston Bay over space and time.","Salinity
+Water temperature
+Chlorophyll a
+Oyster beds/cultch
+Current velocities (x, y, z)
+
+Turbidity ","Hourly temperature from NOAA NCDC (1970-1987), mean monthly salinity, chl a and total seston concentrations at 32 sites over a year (Powell and others, 1995) drive on-reef growth, mortality, and reproduction larval transport and settlement to reef populations
+
+Oyster size frequencies and densities across 51 sites in April and May 1992 by the Galveston Bay National Estuarine Program (GNEP) used to initialize reef population models 
+
+Reef areas overlaid on hydrodynamic model grid to estimate percent cover per grid cell","Larval transport
+Larval growth
+Larval mortality
+Filtration
+Respiration
+On-reef oyster growth
+On-reef oyster mortality
+On-reef oyster reproduction","Oyster size
+Reef oyster biomass
+Reef oyster reproduction 
+Reef oyster density
+Reef recruitment
+Larval dispersal
+Larval survival ",Spatially explicit 3D finite element circulation model of Galveston Bay with mapped areal extent of oyster reefs overlaid on grid to determine percent cover,One-hour model time step over five-year simulations; total of seven simulations run to evaluate changes in environmental conditions,Rough order visual calibration of reference simulation using five years of mean environmental conditions to demonstrate that simulated oyster densities and distributions generally overlap with observed estuary-wide distributions. ,"None noted in this publication for the 3D finite element USACE circulation model of Galveston Bay (King, 1985)","First full life cycle oyster metapopulation model of its kind coupling larval transport model (with growth and mortality) to reef size-structured population point models throughout the estuary, and using a hydrodynamic model to drive larval transport, growth, and mortality and reef population processes.","Model encapsulates all aspects of oyster life cycle, including dispersal of larvae between reefs. "
+"Metapopulation
+(Coupled larval transport (with depth-dependent mortality and behavior) with size-structured reef population model for full life cycle)",Puckett and Eggleston (2016),"Pamlico Sound, N.C., Atlantic Coast","Existing larval transport model (Puckett and others, 2014) used for constructing a transition matrix for determining larval supply to reefs coupled with size-structured population matrix model for each of the 10 reserve reefs representing size-specific growth, survival and fecundity from empirically based demographic rates to (1) evaluate if reserve network functions as self-persistent metapopulation; 
+(2) determine relative importance of reef demographics versus connectivity to the reserve source-sink dynamics; 
+(3) assess stock enhancement; and
+(4) evaluate FLOSS reef concept (few large or several small)","Oyster density
+Oyster size 
+Oyster mortality
+Current velocities (x, y, z) 
+
+","Oyster demographic data to parameterize 10 reserves collected from June 2006 through October 2008 from 2,686 oysters
+
+Larval transport model from Puckett and others (2014) used to generate 10 seasonal connectivity matrices from May-June and then July-August for 2006 through 2010 simulations ","Larval transport
+Larval recruitment
+On-reef oyster growth","Settlement/recruitment
+Reef oyster density 
+
+",Demographic rates and population growth represented for ten oyster reserves as point models with larval supply among the reserves using a transition matrix informed from the spatially explicit larval transport model of the reef network,"Three seasonal timesteps to calculate reef annual growth rate and stable stage distribution through eigen analysis of matrix models; 
+Ten seasonal connectivity matrices generated for May-June and then July-August for 2006 through 2010","None noted in this publication.
+The size-structured matrix modeling summarizes all empirical data estimates and larval transport results from monitoring conducted over a reserve network of oyster reefs",Oyster larval transport model from Puckett and others (2014) was previously validated using surface drifters in Haase and others (2012),This full life cycle oyster metapopulation model is more of a representation of site-specific demographic data collected over a network of oyster reef reserves. ,"Matrix models are different means for representing size-structured growth, reproduction, and mortality of reef oysters. Study required significant local data on oyster larval transport and connectivity, on-reef oyster sizes, densities, growth and mortality estimates."
+Some other approaches,,,,,,,,,,,,,
+Regression Models,Livingston and others (2000),"Apalachicola Bay, Fla., Northern Gulf of Mexico","Pilot study coupling hydrodynamic modelling with biological data to determine the spatio-temporal effects of freshwater flows on oyster production in Apalachicola Bay
+
+Develop statistical models relating oyster population data to physical-chemical conditions from water quality monitoring stations and coupled output from a hydrodynamic circulation model. 
+","Salinity
+Water temperature
+Dissolved oxygen
+Current velocities (x, y, z)
+Water depth
+
+Water color 
+Turbidity 
+Secchi depth
+River flow 
+Total rainfall","March 1985 through October 1986 for two sets of independent variables including 
+(1) monthly field station data for water color, turbidity, oxygen, and bottom temperature, salinity, DO, sechhi depth, water depth, and average river flow and total rainfall over 10 days preceding the station samples; 
+(2) surface and bottom mean and standard deviation of salinity, temperature, current velocity and min and max temperature from Princeton Ocean Model (POM) cells averaged over 30 days preceding the oyster samples",Statistical models to determine effects and relationships between biological and environmental data,"Larval oyster Concentration 
+Spatfall 
+Oyster size
+Oyster mortality
+Reef oyster density
+Reef oyster biomass
+
+
+",715 POM cells cover Apalachicola Bay system to use as independent variables in monthly oyster population regression models,"Monthly oyster regression models using monthly water quality station data and oyster samples at various stations for 1985 and 1986, and hourly POM-generated conditions for grid cells averaged over 30 days preceding the oyster samples
+",None performed this study as the objective was to determine if spatiotemporal oyster population data could be described by water quality station data and (or) and modeled hydrologic data for the estuary,POM calibrated with salinity data collected at 30-minute intervals at sites throughout bay from June to November 1993. POM validated in this study using monthly bottom salinity data at six stations during March 1985-October 1986 ,Seminal study in the Northern Gulf of Mexico that coupled spatiotemporal oyster data with hydrographic data and a 3D POM using GIS framework that often used in HSI and other model development for oysters. ,Not applicable. 
+Oyster Disease Model,Hofmann and others (2001),"Chesapeake Bay, Md., Atlantic Coast","Host-parasite physiologically based model structured around transmission of Haplosporidium nelsoni (MSX), proliferation, and death rates of the parasite and oyster in relation to changing environmental conditions in Chesapeake Bay ","Salinity
+Water temperature
+Chlorophyll a","Hourly salinity, temperature, chl a and total seston from EPA Chesapeake Bay Monitoring Station from 1986 through 1995
+
+Oyster MSX disease prevalence and intensity from Tangier Sound oyster station (TSOW) by MD DNR ","Oyster mortality 
+Parasite mortality",Reef MSX infection ,MSX host-parasite model is point model with hourly inputs,1-hour timestep run over 10 years,MSX disease prevalence verified with blood hemolymph assays from TSOW site from 1990-1994,Not applicable,Model formulation specific to evaluating oyster disease with limited applicability unless disease would need more detailed evaluation.,Published model. Contact authors. 
+Oyster Food Web Model,Fulford and others (2010),"Chesapeake Bay, Md., Atlantic Coast","Bioenergetics-based food web model simulating daily growth and mortality of 23 biomass groups including oyster size classes, phytoplankton, zooplankton, and larval fish groups in order to evaluate oyster reef effects on the estuarine food web","Water temperature
+
+Surface irradiance 
+TISS concentration
+Nitrogen 
+Phosphorus ","Daily surface light level, temperature, TISS, N, P from 1993-2003 by the CBMP","Oyster growth
+Oyster mortality
+Oyster reproduction
+Oyster filtration
+Oyster respiration","Oyster size
+Reef oyster biomass
+Larval oyster biomass
+
+Phytoplankton biomass
+Zooplankton biomass
+Larval Fish biomass ",Spatial boxes to represent differences in environmental conditions among oyster reef food web models,Daily model timestep run over single years for comparing multiple years,Oyster biomass fit to monthly oyster data for seasonal calibration,Not applicable,"Used for examining annual or within-year food web dynamics if nutrient, phytoplankton, chlorophyll a data exist. 
+Applicable if there is a need for explicit modeling of food web interactions with oysters.","This oyster food web model (TroSIM) has been used in Northern Gulf of Mexico (Fulford and others, 2010). Contact authors for availability. "
