@@ -8,6 +8,7 @@ output: github_document
 ```{r}
 library(tidyverse)
 library(readr)
+library(skimr)
 ```
 
 # Import Data Manually 
@@ -28,7 +29,7 @@ hurricane_site <- read_csv("Hurricane Dataset/hf011-04-site.csv")
 
 *Storm Surge Dataset* 
 ```{r}
-storm_surge <- read_csv("Storm Surge data/globalpeaksurgedb.csv")
+stormsurge <- read_csv("globalpeaksurgedb.csv")
 ```
 
 *Oyster Modeling data*
@@ -48,6 +49,19 @@ Oyster_data_NC <-  read_csv("Oyster Data/bcodmo_dataset_704333_712b_5843_9069.cs
 ```
 
 
+**Storm surge**
+
+```{r}
+skim(stormsurge)
+```
+```{r}
+skim (Oyster_data_NC)
+```
+```{r}
+skim(oyster_model_tb1)
+skim(oyster_model_tb2)
+skim(oyster_model_tb3)
+```
 
 
 
