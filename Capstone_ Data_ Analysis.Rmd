@@ -49,8 +49,14 @@ Oyster_data_NC <-  read_csv("Oyster Data/bcodmo_dataset_704333_712b_5843_9069.cs
 ```
 
 
-**Storm surge**
+**SKIM DATA**
 
+```{r}
+skim(hurricane_damage)
+skim(hurricane_data)
+skim(hurricane_tracks)
+skim(hurricane_site)
+```
 ```{r}
 skim(stormsurge)
 ```

@@ -168,7 +168,161 @@ Oyster_data_NC <-  read_csv("Oyster Data/bcodmo_dataset_704333_712b_5843_9069.cs
     ## ℹ Use `spec()` to retrieve the full column specification for this data.
     ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
-**Storm surge**
+**SKIM DATA**
+
+``` r
+skim(hurricane_damage)
+```
+
+|                                                  |                  |
+|:-------------------------------------------------|:-----------------|
+| Name                                             | hurricane_damage |
+| Number of rows                                   | 1233             |
+| Number of columns                                | 5                |
+| \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_   |                  |
+| Column type frequency:                           |                  |
+| character                                        | 3                |
+| numeric                                          | 2                |
+| \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ |                  |
+| Group variables                                  | None             |
+
+Data summary
+
+**Variable type: character**
+
+| skim_variable | n_missing | complete_rate | min | max | empty | n_unique | whitespace |
+|:--------------|----------:|--------------:|----:|----:|------:|---------:|-----------:|
+| code          |         0 |             1 |   5 |   6 |     0 |       57 |          0 |
+| state         |         0 |             1 |   2 |   2 |     0 |        7 |          0 |
+| town          |         0 |             1 |   8 |  24 |     0 |      455 |          0 |
+
+**Variable type: numeric**
+
+| skim_variable | n_missing | complete_rate |   mean |     sd |  p0 | p25 | p50 | p75 | p100 | hist  |
+|:--------------|----------:|--------------:|-------:|-------:|----:|----:|----:|----:|-----:|:------|
+| gis           |         0 |             1 | 566.34 | 525.63 |   2 | 198 | 393 | 613 | 1689 | ▇▅▁▁▃ |
+| f.scale       |         0 |             1 |   1.18 |   0.65 |  -1 |   1 |   1 |   2 |    3 | ▁▂▇▃▁ |
+
+``` r
+skim(hurricane_data)
+```
+
+|                                                  |                |
+|:-------------------------------------------------|:---------------|
+| Name                                             | hurricane_data |
+| Number of rows                                   | 67             |
+| Number of columns                                | 10             |
+| \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_   |                |
+| Column type frequency:                           |                |
+| character                                        | 4              |
+| Date                                             | 2              |
+| numeric                                          | 4              |
+| \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ |                |
+| Group variables                                  | None           |
+
+Data summary
+
+**Variable type: character**
+
+| skim_variable | n_missing | complete_rate | min | max | empty | n_unique | whitespace |
+|:--------------|----------:|--------------:|----:|----:|------:|---------:|-----------:|
+| code          |         0 |          1.00 |   5 |   6 |     0 |       67 |          0 |
+| name          |        50 |          0.25 |   3 |   7 |     0 |       15 |          0 |
+| f.max         |         0 |          1.00 |   2 |   2 |     0 |        6 |          0 |
+| track         |         0 |          1.00 |   1 |   1 |     0 |        3 |          0 |
+
+**Variable type: Date**
+
+| skim_variable | n_missing | complete_rate | min        | max        | median     | n_unique |
+|:--------------|----------:|--------------:|:-----------|:-----------|:-----------|---------:|
+| start.date    |         0 |             1 | 1635-08-25 | 1996-09-02 | 1893-06-18 |       67 |
+| end.date      |         0 |             1 | 1635-08-25 | 1996-09-02 | 1893-06-18 |       67 |
+
+**Variable type: numeric**
+
+| skim_variable | n_missing | complete_rate |  mean |    sd |   p0 |  p25 |  p50 |   p75 |  p100 | hist  |
+|:--------------|----------:|--------------:|------:|------:|-----:|-----:|-----:|------:|------:|:------|
+| number        |        25 |          0.63 |  5.07 |  3.47 |  1.0 |  2.0 |  4.0 |   7.0 |  15.0 | ▇▇▃▁▂ |
+| ss            |         0 |          1.00 |  1.81 |  0.68 |  1.0 |  1.0 |  2.0 |   2.0 |   3.0 | ▆▁▇▁▂ |
+| rm            |         0 |          1.00 | 76.49 | 18.40 | 50.0 | 75.0 | 75.0 | 100.0 | 100.0 | ▅▁▇▁▅ |
+| b             |         0 |          1.00 |  1.30 |  0.00 |  1.3 |  1.3 |  1.3 |   1.3 |   1.3 | ▁▁▇▁▁ |
+
+``` r
+skim(hurricane_tracks)
+```
+
+|                                                  |                  |
+|:-------------------------------------------------|:-----------------|
+| Name                                             | hurricane_tracks |
+| Number of rows                                   | 1809             |
+| Number of columns                                | 11               |
+| \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_   |                  |
+| Column type frequency:                           |                  |
+| character                                        | 1                |
+| numeric                                          | 9                |
+| POSIXct                                          | 1                |
+| \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ |                  |
+| Group variables                                  | None             |
+
+Data summary
+
+**Variable type: character**
+
+| skim_variable | n_missing | complete_rate | min | max | empty | n_unique | whitespace |
+|:--------------|----------:|--------------:|----:|----:|------:|---------:|-----------:|
+| code          |         0 |             1 |   5 |   6 |     0 |       67 |          0 |
+
+**Variable type: numeric**
+
+| skim_variable | n_missing | complete_rate |    mean |    sd |     p0 |    p25 |    p50 |    p75 |   p100 | hist  |
+|:--------------|----------:|--------------:|--------:|------:|-------:|-------:|-------:|-------:|-------:|:------|
+| year          |         0 |             1 | 1919.15 | 65.95 | 1635.0 | 1893.0 | 1936.0 | 1960.0 | 1996.0 | ▁▁▁▃▇ |
+| month         |         0 |             1 |    8.73 |  0.97 |    6.0 |    8.0 |    9.0 |    9.0 |   12.0 | ▁▅▇▂▁ |
+| day           |         0 |             1 |   16.38 |  8.44 |    1.0 |    9.0 |   17.0 |   23.0 |   31.0 | ▆▇▇▇▆ |
+| hour          |         0 |             1 |    9.14 |  6.69 |    0.0 |    6.0 |   12.0 |   15.0 |   22.0 | ▇▇▇▁▇ |
+| minute        |         0 |             1 |    0.00 |  0.00 |    0.0 |    0.0 |    0.0 |    0.0 |    0.0 | ▁▁▇▁▁ |
+| lat           |         0 |             1 |   31.93 | 11.44 |   10.1 |   22.7 |   30.7 |   41.3 |   61.8 | ▅▇▆▅▁ |
+| long          |         0 |             1 |  -63.58 | 14.39 |  -95.2 |  -73.2 |  -68.1 |  -58.4 |   -9.1 | ▁▇▂▁▁ |
+| vm.m          |         0 |             1 |   36.97 | 14.59 |    5.1 |   25.7 |   36.0 |   46.3 |   82.3 | ▃▆▇▃▁ |
+| vm.k          |         0 |             1 |   71.87 | 28.36 |   10.0 |   50.0 |   70.0 |   90.0 |  160.0 | ▅▇▇▃▁ |
+
+**Variable type: POSIXct**
+
+| skim_variable | n_missing | complete_rate | min                 | max                 | median              | n_unique |
+|:--------------|----------:|--------------:|:--------------------|:--------------------|:--------------------|---------:|
+| datetime      |         0 |             1 | 1635-08-24 18:00:00 | 1996-09-06 18:00:00 | 1936-09-22 12:00:00 |     1738 |
+
+``` r
+skim(hurricane_site)
+```
+
+|                                                  |                |
+|:-------------------------------------------------|:---------------|
+| Name                                             | hurricane_site |
+| Number of rows                                   | 114            |
+| Number of columns                                | 4              |
+| \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_   |                |
+| Column type frequency:                           |                |
+| character                                        | 2              |
+| numeric                                          | 2              |
+| \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ |                |
+| Group variables                                  | None           |
+
+Data summary
+
+**Variable type: character**
+
+| skim_variable | n_missing | complete_rate | min | max | empty | n_unique | whitespace |
+|:--------------|----------:|--------------:|----:|----:|------:|---------:|-----------:|
+| code          |         0 |             1 |   5 |   6 |     0 |       57 |          0 |
+| site          |         0 |             1 |   9 |  10 |     0 |        2 |          0 |
+
+**Variable type: numeric**
+
+| skim_variable | n_missing | complete_rate |  mean |     sd |  p0 |   p25 | p50 |    p75 |  p100 | hist  |
+|:--------------|----------:|--------------:|------:|-------:|----:|------:|----:|-------:|------:|:------|
+| f.scale       |        14 |          0.88 |   1.0 |   0.63 |   0 |  0.58 |   1 |   1.42 |   2.5 | ▇▇▇▃▂ |
+| w.dir         |        14 |          0.88 | 114.3 | 105.29 |   0 | 35.50 |  80 | 145.50 | 360.0 | ▇▅▂▁▂ |
 
 ``` r
 skim(stormsurge)
