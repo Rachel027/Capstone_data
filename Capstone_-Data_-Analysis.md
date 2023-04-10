@@ -499,3 +499,113 @@ Data summary
 | …12                                |         6 |          0.85 |  14 | 340 |     0 |       22 |          0 |
 | …13                                |         6 |          0.85 |  48 | 738 |     0 |       32 |          0 |
 | …14                                |         6 |          0.85 |  15 | 313 |     0 |       32 |          0 |
+
+**DATA ANALYSIS**
+
+``` r
+stormsurge %>%
+  group_by(Country = "US") %>%
+  group_by(State = "FL")
+```
+
+    ## # A tibble: 745 × 23
+    ## # Groups:   State [1]
+    ##     Year Storm N…¹ Storm…² Time    Reg Sub R…³ Country State Locat…⁴   Lat   Lon
+    ##    <dbl> <chr>     <chr>   <chr> <dbl>   <dbl> <chr>   <chr> <chr>   <dbl> <dbl>
+    ##  1  1897 Typhoon … 12-Oct  <NA>      1       1 US      FL    Hernan…  11.4  126.
+    ##  2  1908 Typhoon … 13-Oct  <NA>      1       1 US      FL    Aparri   18.4  122.
+    ##  3  1908 <NA>      Sep 17… <NA>      1       1 US      FL    <NA>     NA     NA 
+    ##  4  1912 Typhoon … Oct 14… <NA>      1       1 US      FL    <NA>     10.4  125.
+    ##  5  1912 Typhoon … Sep 27… <NA>      1       1 US      FL    <NA>     NA     NA 
+    ##  6  1912 Typhoon … Nov 24… <NA>      1       1 US      FL    <NA>     NA     NA 
+    ##  7  1914 Typhoon … Jun 15… <NA>      1       1 US      FL    <NA>     12.3  125.
+    ##  8  1916 Typhoon … Jan 10… <NA>      1       1 US      FL    <NA>     11.2  124.
+    ##  9  1968 Didang    <NA>    <NA>      1       1 US      FL    Barrio…  17.4  120.
+    ## 10  1970 <NA>      <NA>    <NA>      1       1 US      FL    <NA>     14.5  120.
+    ## # … with 735 more rows, 12 more variables: Surge_m <chr>, Surge_ft <dbl>,
+    ## #   Storm_Tide_m <dbl>, Storm_Tide_ft <dbl>, Storm_Tide_Waves_m <dbl>,
+    ## #   Storm_Tide_Waves_ft <dbl>, Datum <chr>, `Type of Obs` <chr>,
+    ## #   Tropical <chr>, Confidence <dbl>, `Surge ID` <dbl>, `Storm ID` <dbl>, and
+    ## #   abbreviated variable names ¹​`Storm Name`, ²​`Storm Dates`, ³​`Sub Reg`,
+    ## #   ⁴​Location
+
+``` r
+stormsurge %>%
+  group_by(Country = "US") %>%
+  group_by(State = "TX")
+```
+
+    ## # A tibble: 745 × 23
+    ## # Groups:   State [1]
+    ##     Year Storm N…¹ Storm…² Time    Reg Sub R…³ Country State Locat…⁴   Lat   Lon
+    ##    <dbl> <chr>     <chr>   <chr> <dbl>   <dbl> <chr>   <chr> <chr>   <dbl> <dbl>
+    ##  1  1897 Typhoon … 12-Oct  <NA>      1       1 US      TX    Hernan…  11.4  126.
+    ##  2  1908 Typhoon … 13-Oct  <NA>      1       1 US      TX    Aparri   18.4  122.
+    ##  3  1908 <NA>      Sep 17… <NA>      1       1 US      TX    <NA>     NA     NA 
+    ##  4  1912 Typhoon … Oct 14… <NA>      1       1 US      TX    <NA>     10.4  125.
+    ##  5  1912 Typhoon … Sep 27… <NA>      1       1 US      TX    <NA>     NA     NA 
+    ##  6  1912 Typhoon … Nov 24… <NA>      1       1 US      TX    <NA>     NA     NA 
+    ##  7  1914 Typhoon … Jun 15… <NA>      1       1 US      TX    <NA>     12.3  125.
+    ##  8  1916 Typhoon … Jan 10… <NA>      1       1 US      TX    <NA>     11.2  124.
+    ##  9  1968 Didang    <NA>    <NA>      1       1 US      TX    Barrio…  17.4  120.
+    ## 10  1970 <NA>      <NA>    <NA>      1       1 US      TX    <NA>     14.5  120.
+    ## # … with 735 more rows, 12 more variables: Surge_m <chr>, Surge_ft <dbl>,
+    ## #   Storm_Tide_m <dbl>, Storm_Tide_ft <dbl>, Storm_Tide_Waves_m <dbl>,
+    ## #   Storm_Tide_Waves_ft <dbl>, Datum <chr>, `Type of Obs` <chr>,
+    ## #   Tropical <chr>, Confidence <dbl>, `Surge ID` <dbl>, `Storm ID` <dbl>, and
+    ## #   abbreviated variable names ¹​`Storm Name`, ²​`Storm Dates`, ³​`Sub Reg`,
+    ## #   ⁴​Location
+
+``` r
+stormsurge %>%
+  group_by(Country = "US") %>%
+  group_by(State = "LA")
+```
+
+    ## # A tibble: 745 × 23
+    ## # Groups:   State [1]
+    ##     Year Storm N…¹ Storm…² Time    Reg Sub R…³ Country State Locat…⁴   Lat   Lon
+    ##    <dbl> <chr>     <chr>   <chr> <dbl>   <dbl> <chr>   <chr> <chr>   <dbl> <dbl>
+    ##  1  1897 Typhoon … 12-Oct  <NA>      1       1 US      LA    Hernan…  11.4  126.
+    ##  2  1908 Typhoon … 13-Oct  <NA>      1       1 US      LA    Aparri   18.4  122.
+    ##  3  1908 <NA>      Sep 17… <NA>      1       1 US      LA    <NA>     NA     NA 
+    ##  4  1912 Typhoon … Oct 14… <NA>      1       1 US      LA    <NA>     10.4  125.
+    ##  5  1912 Typhoon … Sep 27… <NA>      1       1 US      LA    <NA>     NA     NA 
+    ##  6  1912 Typhoon … Nov 24… <NA>      1       1 US      LA    <NA>     NA     NA 
+    ##  7  1914 Typhoon … Jun 15… <NA>      1       1 US      LA    <NA>     12.3  125.
+    ##  8  1916 Typhoon … Jan 10… <NA>      1       1 US      LA    <NA>     11.2  124.
+    ##  9  1968 Didang    <NA>    <NA>      1       1 US      LA    Barrio…  17.4  120.
+    ## 10  1970 <NA>      <NA>    <NA>      1       1 US      LA    <NA>     14.5  120.
+    ## # … with 735 more rows, 12 more variables: Surge_m <chr>, Surge_ft <dbl>,
+    ## #   Storm_Tide_m <dbl>, Storm_Tide_ft <dbl>, Storm_Tide_Waves_m <dbl>,
+    ## #   Storm_Tide_Waves_ft <dbl>, Datum <chr>, `Type of Obs` <chr>,
+    ## #   Tropical <chr>, Confidence <dbl>, `Surge ID` <dbl>, `Storm ID` <dbl>, and
+    ## #   abbreviated variable names ¹​`Storm Name`, ²​`Storm Dates`, ³​`Sub Reg`,
+    ## #   ⁴​Location
+
+``` r
+stormsurge %>%
+  group_by(Country = "US") %>%
+  group_by(State = "MS")
+```
+
+    ## # A tibble: 745 × 23
+    ## # Groups:   State [1]
+    ##     Year Storm N…¹ Storm…² Time    Reg Sub R…³ Country State Locat…⁴   Lat   Lon
+    ##    <dbl> <chr>     <chr>   <chr> <dbl>   <dbl> <chr>   <chr> <chr>   <dbl> <dbl>
+    ##  1  1897 Typhoon … 12-Oct  <NA>      1       1 US      MS    Hernan…  11.4  126.
+    ##  2  1908 Typhoon … 13-Oct  <NA>      1       1 US      MS    Aparri   18.4  122.
+    ##  3  1908 <NA>      Sep 17… <NA>      1       1 US      MS    <NA>     NA     NA 
+    ##  4  1912 Typhoon … Oct 14… <NA>      1       1 US      MS    <NA>     10.4  125.
+    ##  5  1912 Typhoon … Sep 27… <NA>      1       1 US      MS    <NA>     NA     NA 
+    ##  6  1912 Typhoon … Nov 24… <NA>      1       1 US      MS    <NA>     NA     NA 
+    ##  7  1914 Typhoon … Jun 15… <NA>      1       1 US      MS    <NA>     12.3  125.
+    ##  8  1916 Typhoon … Jan 10… <NA>      1       1 US      MS    <NA>     11.2  124.
+    ##  9  1968 Didang    <NA>    <NA>      1       1 US      MS    Barrio…  17.4  120.
+    ## 10  1970 <NA>      <NA>    <NA>      1       1 US      MS    <NA>     14.5  120.
+    ## # … with 735 more rows, 12 more variables: Surge_m <chr>, Surge_ft <dbl>,
+    ## #   Storm_Tide_m <dbl>, Storm_Tide_ft <dbl>, Storm_Tide_Waves_m <dbl>,
+    ## #   Storm_Tide_Waves_ft <dbl>, Datum <chr>, `Type of Obs` <chr>,
+    ## #   Tropical <chr>, Confidence <dbl>, `Surge ID` <dbl>, `Storm ID` <dbl>, and
+    ## #   abbreviated variable names ¹​`Storm Name`, ²​`Storm Dates`, ³​`Sub Reg`,
+    ## #   ⁴​Location
