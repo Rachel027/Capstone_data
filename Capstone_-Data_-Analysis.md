@@ -21,7 +21,24 @@ library(tidyverse)
 ``` r
 library(readr)
 library(skimr)
+library(dplyr)
+library(ozmaps)
+library(sf)
 ```
+
+    ## Linking to GEOS 3.8.0, GDAL 3.0.4, PROJ 6.3.1; sf_use_s2() is TRUE
+
+``` r
+library("rnaturalearth")
+library("rnaturalearthdata")
+```
+
+    ## 
+    ## Attaching package: 'rnaturalearthdata'
+    ## 
+    ## The following object is masked from 'package:rnaturalearth':
+    ## 
+    ##     countries110
 
 # Import Data Manually
 
