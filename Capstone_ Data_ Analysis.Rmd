@@ -10,12 +10,6 @@ library(tidyverse)
 library(readr)
 library(skimr)
 library(dplyr)
-library(ozmaps)
-library(sf)
-library("rnaturalearth")
-library("rnaturalearthdata")
-
-
 
 ```
 
@@ -86,6 +80,10 @@ filter(Country == "US")
 ```
 
 
+<<<<<<< HEAD
 
+=======
+```
+>>>>>>> 8e56fe8515270a03292c747bec4544a6166f134a
 
 
