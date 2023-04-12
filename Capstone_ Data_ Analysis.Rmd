@@ -79,28 +79,13 @@ skim(oyster_model_tb3)
 
 **DATA ANALYSIS**
 
-```{r}
+```{r} 
 stormsurge %>%
-  group_by(Country = "US") %>%
-  group_by(State = "FL")
-
-stormsurge %>%
-  group_by(Country = "US") %>%
-  group_by(State = "TX")
-
-stormsurge %>%
-  group_by(Country = "US") %>%
-  group_by(State = "LA")
-
-stormsurge %>%
-  group_by(Country = "US") %>%
-  group_by(State = "MS")
-```
-```{r}
-
-
+filter(Country == "US")
 
 ```
 
 
-```{r}
+
+
+
