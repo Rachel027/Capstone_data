@@ -10,12 +10,6 @@ library(tidyverse)
 library(readr)
 library(skimr)
 library(dplyr)
-library(ozmaps)
-library(sf)
-library("rnaturalearth")
-library("rnaturalearthdata")
-
-
 
 ```
 
@@ -97,7 +91,6 @@ stormsurge %>%
   group_by(State = "MS")
 ```
 ```{r}
-
 
 
 ```
