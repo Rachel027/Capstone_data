@@ -15,23 +15,13 @@ library(dplyr)
 
 # Import Data Manually 
 
-*Hurricane Dataset*
-```{r}
-hurricane_data <- read_csv("Hurricane Dataset/hf011-01-hurricanes.csv")
-```
-```{r}
-hurricane_damage <- read_csv("Hurricane Dataset/hf011-02-damage.csv")
-```
-```{r}
-hurricane_tracks <- read_csv("Hurricane Dataset/hf011-03-tracks.csv")
-```
-```{r}
-hurricane_site <- read_csv("Hurricane Dataset/hf011-04-site.csv")
-```
+**Dont need hurricane due to being already completed*
 
 *Storm Surge Dataset* 
 ```{r}
 stormsurge <- read_csv("globalpeaksurgedb.csv")
+Encrusting_organism <- read_csv("2017-2019 Encrusting organism count and density (1).csv")
+Oyster_shell <- read_csv("2017-2019 Oyster shell heights (1).csv")
 ```
 
 
@@ -39,10 +29,8 @@ stormsurge <- read_csv("globalpeaksurgedb.csv")
 **SKIM DATA**
 
 ```{r}
-skim(hurricane_damage)
-skim(hurricane_data)
-skim(hurricane_tracks)
-skim(hurricane_site)
+skim(Oyster_shell)
+skim(Encrusting_organism)
 ```
 ```{r}
 skim(stormsurge)
@@ -54,7 +42,19 @@ skim(stormsurge)
 ```{r} 
 stormsurge %>%
 filter(Country == "US")
+```
+```{r eval=FALSE}
+US_stormsurge <-stormsurge %>%
+  filter(Country== "US")
 
+
+ggplot(US_stormsurge, aes(x = surge_ft , fill = State)) +
+  geom_bar()+
+  facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
+  labs(
+    x = "Storm Surge Height",
+    title = "Comparision of Storm Surge Heights in States Located along the Gulf Coast") +
+ theme(legend.position = "none") 
 ```
 
 
