@@ -32,6 +32,7 @@ Oyster_shell <- read_csv("2017-2019 Oyster shell heights (1).csv")
 skim(Oyster_shell)
 skim(Encrusting_organism)
 ```
+
 ```{r}
 skim(stormsurge)
 ```
@@ -43,18 +44,19 @@ skim(stormsurge)
 stormsurge %>%
 filter(Country == "US")
 ```
+
 ```{r eval=FALSE}
 US_stormsurge <-stormsurge %>%
   filter(Country== "US")
 
-
-ggplot(US_stormsurge, aes(x = surge_ft , fill = State)) +
+ggplot(US_stormsurge, aes(x = State , fill = Surge_ft)) +
   geom_bar()+
   facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
   labs(
     x = "Storm Surge Height",
-    title = "Comparision of Storm Surge Heights in States Located along the Gulf Coast") +
- theme(legend.position = "none") 
+    title = "Comparision of Storm Surge Heights in States Located along the Gulf Coast") + 
+  theme(legend.position = "none") 
+ 
 ```
 
 
