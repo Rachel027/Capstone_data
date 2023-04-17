@@ -7,16 +7,14 @@ Storm Surges in the Gulf Coast?
 library(tidyverse)
 ```
 
-    ## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-    ## ✔ dplyr     1.1.1     ✔ readr     2.1.4
-    ## ✔ forcats   1.0.0     ✔ stringr   1.5.0
-    ## ✔ ggplot2   3.4.1     ✔ tibble    3.2.1
-    ## ✔ lubridate 1.9.2     ✔ tidyr     1.3.0
-    ## ✔ purrr     1.0.1     
+    ## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+    ## ✔ ggplot2 3.4.0      ✔ purrr   1.0.1 
+    ## ✔ tibble  3.1.8      ✔ dplyr   1.0.10
+    ## ✔ tidyr   1.2.1      ✔ stringr 1.5.0 
+    ## ✔ readr   2.1.3      ✔ forcats 0.5.2 
     ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
     ## ✖ dplyr::filter() masks stats::filter()
     ## ✖ dplyr::lag()    masks stats::lag()
-    ## ℹ Use the ]8;;http://conflicted.r-lib.org/conflicted package]8;; to force all conflicts to become errors
 
 ``` r
 library(readr)
@@ -234,12 +232,11 @@ filter(Country == "US")
 US_stormsurge <-stormsurge %>%
   filter(Country== "US")
 
-
-ggplot(US_stormsurge, aes(x = surge_ft , fill = State)) +
+ggplot(US_stormsurge, aes(x = State , fill = Surge_ft)) +
   geom_bar()+
   facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
   labs(
     x = "Storm Surge Height",
-    title = "Comparision of Storm Surge Heights in States Located along the Gulf Coast") +
- theme(legend.position = "none") 
+    title = "Comparision of Storm Surge Heights in States Located along the Gulf Coast") + 
+  theme(legend.position = "none") 
 ```
