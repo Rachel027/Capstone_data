@@ -43,11 +43,12 @@ skim(stormsurge)
 stormsurge %>%
 filter(Country == "US")
 ```
-```{r eval=FALSE}
+```{r}
 US_stormsurge <-stormsurge %>%
   filter(Country== "US")
+```
 
-
+```{r}
 ggplot(US_stormsurge, aes(x = surge_ft , fill = State)) +
   geom_bar()+
   facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
