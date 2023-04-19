@@ -289,7 +289,7 @@ ggplot(Gulf_stormsurge, aes(x = State, y = Storm_Tide_m)) +
 
 This graph shows that Florida experiences higher storm tides than other
 states, and Alabama has the lowest. Could be useful when connecting
-damage caused by storm to occurence.
+damage caused by storm to occurrence.
 
 ``` r
 ggplot(Gulf_stormsurge, aes(x = State, fill= Surge_ft)) +
@@ -306,3 +306,26 @@ ggplot(Gulf_stormsurge, aes(x = State, fill= Surge_ft)) +
     ##   variable into a factor?
 
 ![](Capstone_-Data_-Analysis_files/figure-gfm/tide%20height%20and%20state-1.png)<!-- -->
+
+Trying to look at relationship between oyster density and site. Need to
+understand what the site locations are so we can connect that to
+specific states.
+
+``` r
+ggplot(Encrusting_organism, aes(x = SITE, y = OYSTER_DENSITY, fill = OYSTER_COUNT)) +
+  geom_boxplot()+
+  labs(
+    x = "Site ", y = "Oyster Density", 
+    title = "Number of oysters in Site") +
+  theme(legend.position = "none") 
+```
+
+    ## Warning: Removed 334530 rows containing non-finite values (`stat_boxplot()`).
+
+    ## Warning: The following aesthetics were dropped during statistical transformation: fill
+    ## ℹ This can happen when ggplot fails to infer the correct grouping structure in
+    ##   the data.
+    ## ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
+    ##   variable into a factor?
+
+![](Capstone_-Data_-Analysis_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
