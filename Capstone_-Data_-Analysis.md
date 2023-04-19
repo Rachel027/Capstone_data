@@ -7,14 +7,16 @@ Storm Surges in the Gulf Coast?
 library(tidyverse)
 ```
 
-    ## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
-    ## ✔ ggplot2 3.4.0      ✔ purrr   1.0.1 
-    ## ✔ tibble  3.1.8      ✔ dplyr   1.0.10
-    ## ✔ tidyr   1.2.1      ✔ stringr 1.5.0 
-    ## ✔ readr   2.1.3      ✔ forcats 0.5.2 
+    ## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+    ## ✔ dplyr     1.1.1     ✔ readr     2.1.4
+    ## ✔ forcats   1.0.0     ✔ stringr   1.5.0
+    ## ✔ ggplot2   3.4.1     ✔ tibble    3.2.1
+    ## ✔ lubridate 1.9.2     ✔ tidyr     1.3.0
+    ## ✔ purrr     1.0.1     
     ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
     ## ✖ dplyr::filter() masks stats::filter()
     ## ✖ dplyr::lag()    masks stats::lag()
+    ## ℹ Use the ]8;;http://conflicted.r-lib.org/conflicted package]8;; to force all conflicts to become errors
 
 ``` r
 library(readr)
@@ -232,11 +234,54 @@ filter(Country == "US")
 US_stormsurge <-stormsurge %>%
   filter(Country== "US")
 
-ggplot(US_stormsurge, aes(x = State , fill = Surge_ft)) +
+Gulf_stormsurge <- stormsurge %>%
+  filter(State == "AL" | State =="TX"| State == "LA" | State =="MS" | State == "FL")
+
+Gulf_stormsurge
+```
+
+    ## # A tibble: 274 × 23
+    ##     Year Storm N…¹ Storm…² Time    Reg Sub R…³ Country State Locat…⁴   Lat   Lon
+    ##    <dbl> <chr>     <chr>   <chr> <dbl>   <dbl> <chr>   <chr> <chr>   <dbl> <dbl>
+    ##  1  1880 "Unnamed" Aug 04… <NA>      5       1 US      TX    Near S…  26.2 -97.2
+    ##  2  1886 "\xd0Ind… Aug 12… <NA>      5       1 US      TX    Indian…  28.5 -96.5
+    ##  3  1886 "Unnamed" Oct 8-… <NA>      5       1 US      LA    Johnso…  29.8 -93.7
+    ##  4  1886 "Unnamed" Jun 13… <NA>      5       1 US      TX    Sabine…  29.7 -94.0
+    ##  5  1886 "Unnamed" Sep 16… <NA>      5       1 US      TX    Indian…  28.5 -96.5
+    ##  6  1888 "Unnamed" Oct 8-… <NA>      5       1 US      FL    Cedar …  29.1 -83.0
+    ##  7  1888 "Unnamed" Aug 14… <NA>      5       1 US      AL    Mobile   30.7 -88.0
+    ##  8  1893 "\xd0Che… Sep 27… <NA>      5       1 US      LA    Chenie…  29.2 -90.1
+    ##  9  1894 "Unnamed" Oct 1-… <NA>      5       1 US      AL    Fort M…  30.2 -88.0
+    ## 10  1895 "Unnamed" Aug 22… <NA>      5       1 US      TX    Velasco  29.0 -95.4
+    ## # … with 264 more rows, 12 more variables: Surge_m <chr>, Surge_ft <dbl>,
+    ## #   Storm_Tide_m <dbl>, Storm_Tide_ft <dbl>, Storm_Tide_Waves_m <dbl>,
+    ## #   Storm_Tide_Waves_ft <dbl>, Datum <chr>, `Type of Obs` <chr>,
+    ## #   Tropical <chr>, Confidence <dbl>, `Surge ID` <dbl>, `Storm ID` <dbl>, and
+    ## #   abbreviated variable names ¹​`Storm Name`, ²​`Storm Dates`, ³​`Sub Reg`,
+    ## #   ⁴​Location
+
+``` r
+ggplot(Gulf_stormsurge, aes(y = Surge_m, fill = State)) +
   geom_bar()+
-  facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
+    facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
   labs(
     x = "Storm Surge Height",
     title = "Comparision of Storm Surge Heights in States Located along the Gulf Coast") + 
   theme(legend.position = "none") 
 ```
+
+![](Capstone_-Data_-Analysis_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+
+``` r
+ggplot(Gulf_stormsurge, aes(y = Storm_Tide_m, fill = State)) +
+  geom_bar()+
+    facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
+  labs(
+    x = "Storm Tide Height (m) ",
+    title = "Comparision of Storm Tide Heights in States Located along the Gulf Coast") + 
+  theme(legend.position = "none") 
+```
+
+    ## Warning: Removed 81 rows containing non-finite values (`stat_count()`).
+
+![](Capstone_-Data_-Analysis_files/figure-gfm/unnamed-chunk-7-2.png)<!-- -->

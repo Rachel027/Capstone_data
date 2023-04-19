@@ -45,23 +45,35 @@ stormsurge %>%
 filter(Country == "US")
 ```
 
-```{r eval=FALSE}
+```{r}
 US_stormsurge <-stormsurge %>%
   filter(Country== "US")
+
+Gulf_stormsurge <- stormsurge %>%
+  filter(State == "AL" | State =="TX"| State == "LA" | State =="MS" | State == "FL")
+
+Gulf_stormsurge
 ```
 
 
 ```{r}
-ggplot(US_stormsurge, aes(x = State , fill = Surge_ft)) +
+ggplot(Gulf_stormsurge, aes(y = Surge_m, fill = State)) +
   geom_bar()+
-  facet_wrap(~ State, nrow = 4, labeller = label_wrap_gen(width = 12)) +
+    facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
   labs(
     x = "Storm Surge Height",
     title = "Comparision of Storm Surge Heights in States Located along the Gulf Coast") + 
   theme(legend.position = "none") 
  
+ggplot(Gulf_stormsurge, aes(y = Storm_Tide_m, fill = State)) +
+  geom_bar()+
+    facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
+  labs(
+    x = "Storm Tide Height (m) ",
+    title = "Comparision of Storm Tide Heights in States Located along the Gulf Coast") + 
+  theme(legend.position = "none") 
+ 
 ```
-
 
 
 
