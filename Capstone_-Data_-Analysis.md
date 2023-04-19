@@ -265,7 +265,7 @@ ggplot(Gulf_stormsurge, aes(y = Surge_m, fill = State)) +
   geom_bar()+
     facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
   labs(
-    x = "Storm Surge Height",
+    y = "Storm Surge Height (m)",
     title = "Comparision of Storm Surge Heights in States Located along the Gulf Coast") + 
   theme(legend.position = "none") 
 ```
@@ -277,7 +277,7 @@ ggplot(Gulf_stormsurge, aes(y = Storm_Tide_m, fill = State)) +
   geom_bar()+
     facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
   labs(
-    x = "Storm Tide Height (m) ",
+    y = "Storm Tide Height (m) ",
     title = "Comparision of Storm Tide Heights in States Located along the Gulf Coast") + 
   theme(legend.position = "none") 
 ```
