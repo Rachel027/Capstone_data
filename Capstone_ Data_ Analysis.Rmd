@@ -15,10 +15,10 @@ library(dplyr)
 
 # Import Data Manually 
 
-**Don't need hurricane due to being already completed*
+**Don't need hurricane due to being already completed**
 
 *Storm Surge Dataset* 
-```{r}
+```{r read files}
 stormsurge <- read_csv("globalpeaksurgedb.csv")
 Encrusting_organism <- read_csv("2017-2019 Encrusting organism count and density (1).csv")
 Oyster_shell <- read_csv("2017-2019 Oyster shell heights (1).csv")
@@ -40,39 +40,63 @@ skim(stormsurge)
 
 **DATA ANALYSIS**
 
-```{r} 
+```{r fileter for US} 
 stormsurge %>%
 filter(Country == "US")
 ```
 
-```{r}
+```{r filtering for specific states}
 US_stormsurge <-stormsurge %>%
   filter(Country== "US")
 
 Gulf_stormsurge <- stormsurge %>%
   filter(State == "AL" | State =="TX"| State == "LA" | State =="MS" | State == "FL")
-
-Gulf_stormsurge
 ```
 
+Bar chart comparing storm surge heights along states. We can see that Florida has more frequent surges at higher heights than any other state. Florida in general experiences more surges than the other states, while Mississippi and Alabama experience the least. Could use this in damage assessments. 
 
-```{r}
+```{r surge}
 ggplot(Gulf_stormsurge, aes(y = Surge_m, fill = State)) +
   geom_bar()+
     facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
   labs(
     y = "Storm Surge Height (m)",
-    title = "Comparision of Storm Surge Heights in States Located along the Gulf Coast") + 
+    title = "Comparision of Storm Surge Heights in States along Gulf Coast") + 
   theme(legend.position = "none") 
  
-ggplot(Gulf_stormsurge, aes(y = Storm_Tide_m, fill = State)) +
+```
+ 
+Bar plot working in progress. Trying to figure out how to make the chart more readable. 
+
+```{r tide}
+ggplot(Gulf_stormsurge, aes(x = Storm_Tide_m, fill = State)) +
   geom_bar()+
     facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
   labs(
     y = "Storm Tide Height (m) ",
-    title = "Comparision of Storm Tide Heights in States Located along the Gulf Coast") + 
+    title = "Comparision of Storm Tide Heights in States along Gulf Coast") + 
   theme(legend.position = "none") 
- 
+```
+
+Box plot showing state vs storm tide. Same idea as the bar chart below, but shown differently. 
+```{r box plot}
+ggplot(Gulf_stormsurge, aes(x = State, y = Storm_Tide_m)) +
+  geom_boxplot()+
+  labs(
+    x = "State", y = "Storm Tide Height (m)", 
+    title = "Comparision of Storm Tide Heights in States along Gulf Coast") + 
+  theme(legend.position = "none") 
+```
+
+
+This graph shows that Florida experiences higher storm tides than other states, and Alabama has the lowest. Could be useful when connecting damage caused by storm to occurence. 
+
+```{r tide height and state }
+ggplot(Gulf_stormsurge, aes(x = State, fill= Surge_ft)) +
+  geom_bar()+
+  labs(
+    x = "State Where Storm Occurred ", y = "Surge Height", 
+    title = "Comparision of Storm Tide Heights in States along Gulf Coast") 
 ```
 
 
