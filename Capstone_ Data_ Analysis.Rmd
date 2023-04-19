@@ -15,7 +15,7 @@ library(dplyr)
 
 # Import Data Manually 
 
-**Dont need hurricane due to being already completed*
+**Don't need hurricane due to being already completed*
 
 *Storm Surge Dataset* 
 ```{r}
