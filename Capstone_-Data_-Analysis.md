@@ -7,16 +7,14 @@ Storm Surges in the Gulf Coast?
 library(tidyverse)
 ```
 
-    ## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-    ## ✔ dplyr     1.1.1     ✔ readr     2.1.4
-    ## ✔ forcats   1.0.0     ✔ stringr   1.5.0
-    ## ✔ ggplot2   3.4.1     ✔ tibble    3.2.1
-    ## ✔ lubridate 1.9.2     ✔ tidyr     1.3.0
-    ## ✔ purrr     1.0.1     
+    ## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+    ## ✔ ggplot2 3.4.0      ✔ purrr   1.0.1 
+    ## ✔ tibble  3.1.8      ✔ dplyr   1.0.10
+    ## ✔ tidyr   1.2.1      ✔ stringr 1.5.0 
+    ## ✔ readr   2.1.3      ✔ forcats 0.5.2 
     ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
     ## ✖ dplyr::filter() masks stats::filter()
     ## ✖ dplyr::lag()    masks stats::lag()
-    ## ℹ Use the ]8;;http://conflicted.r-lib.org/conflicted package]8;; to force all conflicts to become errors
 
 ``` r
 library(readr)
@@ -26,7 +24,7 @@ library(dplyr)
 
 # Import Data Manually
 
-\*\*Dont need hurricane due to being already completed\*
+**Don’t need hurricane due to being already completed**
 
 *Storm Surge Dataset*
 
@@ -236,29 +234,13 @@ US_stormsurge <-stormsurge %>%
 
 Gulf_stormsurge <- stormsurge %>%
   filter(State == "AL" | State =="TX"| State == "LA" | State =="MS" | State == "FL")
-
-Gulf_stormsurge
 ```
 
-    ## # A tibble: 274 × 23
-    ##     Year Storm N…¹ Storm…² Time    Reg Sub R…³ Country State Locat…⁴   Lat   Lon
-    ##    <dbl> <chr>     <chr>   <chr> <dbl>   <dbl> <chr>   <chr> <chr>   <dbl> <dbl>
-    ##  1  1880 "Unnamed" Aug 04… <NA>      5       1 US      TX    Near S…  26.2 -97.2
-    ##  2  1886 "\xd0Ind… Aug 12… <NA>      5       1 US      TX    Indian…  28.5 -96.5
-    ##  3  1886 "Unnamed" Oct 8-… <NA>      5       1 US      LA    Johnso…  29.8 -93.7
-    ##  4  1886 "Unnamed" Jun 13… <NA>      5       1 US      TX    Sabine…  29.7 -94.0
-    ##  5  1886 "Unnamed" Sep 16… <NA>      5       1 US      TX    Indian…  28.5 -96.5
-    ##  6  1888 "Unnamed" Oct 8-… <NA>      5       1 US      FL    Cedar …  29.1 -83.0
-    ##  7  1888 "Unnamed" Aug 14… <NA>      5       1 US      AL    Mobile   30.7 -88.0
-    ##  8  1893 "\xd0Che… Sep 27… <NA>      5       1 US      LA    Chenie…  29.2 -90.1
-    ##  9  1894 "Unnamed" Oct 1-… <NA>      5       1 US      AL    Fort M…  30.2 -88.0
-    ## 10  1895 "Unnamed" Aug 22… <NA>      5       1 US      TX    Velasco  29.0 -95.4
-    ## # … with 264 more rows, 12 more variables: Surge_m <chr>, Surge_ft <dbl>,
-    ## #   Storm_Tide_m <dbl>, Storm_Tide_ft <dbl>, Storm_Tide_Waves_m <dbl>,
-    ## #   Storm_Tide_Waves_ft <dbl>, Datum <chr>, `Type of Obs` <chr>,
-    ## #   Tropical <chr>, Confidence <dbl>, `Surge ID` <dbl>, `Storm ID` <dbl>, and
-    ## #   abbreviated variable names ¹​`Storm Name`, ²​`Storm Dates`, ³​`Sub Reg`,
-    ## #   ⁴​Location
+Bar chart comparing storm surge heights along states. We can see that
+Florida has more frequent surges at higher heights than any other state.
+Florida in general experiences more surges than the other states, while
+Mississippi and Alabama experience the least. Could use this in damage
+assessments.
 
 ``` r
 ggplot(Gulf_stormsurge, aes(y = Surge_m, fill = State)) +
@@ -266,10 +248,11 @@ ggplot(Gulf_stormsurge, aes(y = Surge_m, fill = State)) +
     facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
   labs(
     y = "Storm Surge Height (m)",
-    title = "Comparision of Storm Surge Heights in States Located along the Gulf Coast") + 
+    title = "Comparision of Storm Surge Heights in States along Gulf Coast") + 
   theme(legend.position = "none") 
 ```
 
+<<<<<<< HEAD
 ![](Capstone_-Data_-Analysis_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 ggplot(Gulf_stormsurge, aes(y = Storm_Tide_m, fill = State)) +
@@ -279,3 +262,82 @@ label_wrap_gen(width = 12)) + labs( y = “Storm Tide Height (m)”, title =
 Coast”) + theme(legend.position = “none”)
 
 \`\`\`
+=======
+![](Capstone_-Data_-Analysis_files/figure-gfm/surge-1.png)<!-- -->
+
+Bar plot working in progress. Trying to figure out how to make the chart
+more readable.
+
+``` r
+ggplot(Gulf_stormsurge, aes(x = Storm_Tide_m, fill = State)) +
+  geom_bar()+
+    facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
+  labs(
+    y = "Storm Tide Height (m) ",
+    title = "Comparision of Storm Tide Heights in States along Gulf Coast") + 
+  theme(legend.position = "none") 
+```
+
+    ## Warning: Removed 81 rows containing non-finite values (`stat_count()`).
+
+![](Capstone_-Data_-Analysis_files/figure-gfm/tide-1.png)<!-- -->
+
+Box plot showing state vs storm tide. Same idea as the bar chart below,
+but shown differently.
+
+``` r
+ggplot(Gulf_stormsurge, aes(x = State, y = Storm_Tide_m)) +
+  geom_boxplot()+
+  labs(
+    x = "State", y = "Storm Tide Height (m)", 
+    title = "Comparision of Storm Tide Heights in States along Gulf Coast") + 
+  theme(legend.position = "none") 
+```
+
+    ## Warning: Removed 81 rows containing non-finite values (`stat_boxplot()`).
+
+![](Capstone_-Data_-Analysis_files/figure-gfm/box%20plot-1.png)<!-- -->
+
+This graph shows that Florida experiences higher storm tides than other
+states, and Alabama has the lowest. Could be useful when connecting
+damage caused by storm to occurrence.
+
+``` r
+ggplot(Gulf_stormsurge, aes(x = State, fill= Surge_ft)) +
+  geom_bar()+
+  labs(
+    x = "State Where Storm Occurred ", y = "Surge Height", 
+    title = "Comparision of Storm Tide Heights in States along Gulf Coast") 
+```
+
+    ## Warning: The following aesthetics were dropped during statistical transformation: fill
+    ## ℹ This can happen when ggplot fails to infer the correct grouping structure in
+    ##   the data.
+    ## ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
+    ##   variable into a factor?
+
+![](Capstone_-Data_-Analysis_files/figure-gfm/tide%20height%20and%20state-1.png)<!-- -->
+
+Trying to look at relationship between oyster density and site. Need to
+understand what the site locations are so we can connect that to
+specific states.
+
+``` r
+ggplot(Encrusting_organism, aes(x = SITE, y = OYSTER_DENSITY, fill = OYSTER_COUNT)) +
+  geom_boxplot()+
+  labs(
+    x = "Site ", y = "Oyster Density", 
+    title = "Number of oysters in Site") +
+  theme(legend.position = "none") 
+```
+
+    ## Warning: Removed 334530 rows containing non-finite values (`stat_boxplot()`).
+
+    ## Warning: The following aesthetics were dropped during statistical transformation: fill
+    ## ℹ This can happen when ggplot fails to infer the correct grouping structure in
+    ##   the data.
+    ## ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
+    ##   variable into a factor?
+
+![](Capstone_-Data_-Analysis_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+>>>>>>> b6c8f392aff199e1ca0147e2634ef9df69b4e298
