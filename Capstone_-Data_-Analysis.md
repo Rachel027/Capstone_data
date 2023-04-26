@@ -7,14 +7,16 @@ Storm Surges in the Gulf Coast?
 library(tidyverse)
 ```
 
-    ## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
-    ## ✔ ggplot2 3.4.0      ✔ purrr   1.0.1 
-    ## ✔ tibble  3.1.8      ✔ dplyr   1.0.10
-    ## ✔ tidyr   1.2.1      ✔ stringr 1.5.0 
-    ## ✔ readr   2.1.3      ✔ forcats 0.5.2 
+    ## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+    ## ✔ dplyr     1.1.1     ✔ readr     2.1.4
+    ## ✔ forcats   1.0.0     ✔ stringr   1.5.0
+    ## ✔ ggplot2   3.4.1     ✔ tibble    3.2.1
+    ## ✔ lubridate 1.9.2     ✔ tidyr     1.3.0
+    ## ✔ purrr     1.0.1     
     ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
     ## ✖ dplyr::filter() masks stats::filter()
     ## ✖ dplyr::lag()    masks stats::lag()
+    ## ℹ Use the ]8;;http://conflicted.r-lib.org/conflicted package]8;; to force all conflicts to become errors
 
 ``` r
 library(readr)
@@ -234,7 +236,30 @@ US_stormsurge <-stormsurge %>%
 
 Gulf_stormsurge <- stormsurge %>%
   filter(State == "AL" | State =="TX"| State == "LA" | State =="MS" | State == "FL")
+
+
+Gulf_stormsurge
 ```
+
+    ## # A tibble: 274 × 23
+    ##     Year Storm N…¹ Storm…² Time    Reg Sub R…³ Country State Locat…⁴   Lat   Lon
+    ##    <dbl> <chr>     <chr>   <chr> <dbl>   <dbl> <chr>   <chr> <chr>   <dbl> <dbl>
+    ##  1  1880 "Unnamed" Aug 04… <NA>      5       1 US      TX    Near S…  26.2 -97.2
+    ##  2  1886 "\xd0Ind… Aug 12… <NA>      5       1 US      TX    Indian…  28.5 -96.5
+    ##  3  1886 "Unnamed" Oct 8-… <NA>      5       1 US      LA    Johnso…  29.8 -93.7
+    ##  4  1886 "Unnamed" Jun 13… <NA>      5       1 US      TX    Sabine…  29.7 -94.0
+    ##  5  1886 "Unnamed" Sep 16… <NA>      5       1 US      TX    Indian…  28.5 -96.5
+    ##  6  1888 "Unnamed" Oct 8-… <NA>      5       1 US      FL    Cedar …  29.1 -83.0
+    ##  7  1888 "Unnamed" Aug 14… <NA>      5       1 US      AL    Mobile   30.7 -88.0
+    ##  8  1893 "\xd0Che… Sep 27… <NA>      5       1 US      LA    Chenie…  29.2 -90.1
+    ##  9  1894 "Unnamed" Oct 1-… <NA>      5       1 US      AL    Fort M…  30.2 -88.0
+    ## 10  1895 "Unnamed" Aug 22… <NA>      5       1 US      TX    Velasco  29.0 -95.4
+    ## # … with 264 more rows, 12 more variables: Surge_m <chr>, Surge_ft <dbl>,
+    ## #   Storm_Tide_m <dbl>, Storm_Tide_ft <dbl>, Storm_Tide_Waves_m <dbl>,
+    ## #   Storm_Tide_Waves_ft <dbl>, Datum <chr>, `Type of Obs` <chr>,
+    ## #   Tropical <chr>, Confidence <dbl>, `Surge ID` <dbl>, `Storm ID` <dbl>, and
+    ## #   abbreviated variable names ¹​`Storm Name`, ²​`Storm Dates`, ³​`Sub Reg`,
+    ## #   ⁴​Location
 
 Bar chart comparing storm surge heights along states. We can see that
 Florida has more frequent surges at higher heights than any other state.
@@ -252,18 +277,9 @@ ggplot(Gulf_stormsurge, aes(y = Surge_m, fill = State)) +
   theme(legend.position = "none") 
 ```
 
-<<<<<<< HEAD
-![](Capstone_-Data_-Analysis_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](Capstone_-Data_-Analysis_files/figure-gfm/surge-1.png)<!-- -->
 
 ggplot(Gulf_stormsurge, aes(y = Storm_Tide_m, fill = State)) +
-geom_bar()+ facet_wrap(\~ State, nrow = 1, labeller =
-label_wrap_gen(width = 12)) + labs( y = “Storm Tide Height (m)”, title =
-“Comparision of Storm Tide Heights in States Located along the Gulf
-Coast”) + theme(legend.position = “none”)
-
-\`\`\`
-=======
-![](Capstone_-Data_-Analysis_files/figure-gfm/surge-1.png)<!-- -->
 
 Bar plot working in progress. Trying to figure out how to make the chart
 more readable.
@@ -340,4 +356,87 @@ ggplot(Encrusting_organism, aes(x = SITE, y = OYSTER_DENSITY, fill = OYSTER_COUN
     ##   variable into a factor?
 
 ![](Capstone_-Data_-Analysis_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
->>>>>>> b6c8f392aff199e1ca0147e2634ef9df69b4e298
+
+\#Mapping#
+
+``` r
+LA_stormsurge <- Gulf_stormsurge %>%
+  filter(State == ("LA"))
+```
+
+``` r
+stormsurge_sites <- tibble(longitude = c(-93.7001,-90.0506,-89.1708,-90.5914,-89.9017,-91.2081,-90.8349
+,-89.9873,-92.6301,-90.4231,-93.3300,-89.8672,-90.0689,-89.6786,-89.5297,-93.4525,-92.1075,-91.3833,-89.5189,-93.3442,-90.6712,-89.7565,-90.0292,-91.8772,-90.6633
+,-90.6537,-91.6683,-93.5625,-89.8576,-92.1469,-89.8576,-89.8576,-90.6693,-89.9873,-89.7274, -91.4206,-89.8576,-90.4268,-93.3433,-93.1837,-89.6060,-89.6183,-90.0370,-89.7659), latitude = c(29.7632,29.2097,29.0169,29.2542,29.5797,29.6886,29.2554,29.2633,29.5953,30.1075,29.7400,30.1275,30.3528,29.8551,29.3683,29.7697,29.7451,29.3667,29.3825,29.7622,29.2357,29.5450,30.0157,29.7161,29.2453,29.1627,29.7452,29.7608,30.0038,30.0038,29.5875,30.0038,30.0038,29.2305,29.2366,30.1733,29.5742,30.0038,30.1076,29.7683,29.7867,29.5858,29.5983,30.0310,29.5666), name = c(Site 1:45))
+
+stormsurge_sites <- st_as_sf(LA_sites, coords = c("longitude", "latitude"), crs = 4326)
+
+states <- st_as_sf(maps::map("state", plot = FALSE, fill = TRUE)) %>%
+  mutate(ID = toTitleCase(ID))
+
+counties <- st_as_sf(maps::map("county", plot = FALSE, fill = TRUE)) %>%
+  filter(str_detect(ID, "Louisiana")) %>%
+  mutate(area = as.numeric(st_area(st_make_valid(geom))))
+
+parish <- tibble(state = rep("Louisiana", 8), 
+                 city = c("Cameron", "Vermilion", "Iberia", "St Mary", "Terrebonne", "Lafourche", "Plaquemines", "St Bernard"), 
+                 latitude = c(29.797721,29.860141,  29.499263,29.502976, 29.229968, 29.69523,   29.324005,29.879791 ), 
+                 longitude = c( -93.325154,-92.381362,-91.753882,   -91.443469,-90.753281,-90.525782,-89.474218,-89.322695))
+
+parish <- st_as_sf(parish, coords = c("longitude", "latitude"), crs = 4326)
+
+
+ggplot() +
+#Add the states polygons and make the fill color light yellow-ish (I use hex codes to define colors)
+  geom_sf(data = states, 
+          fill = "#f4f1de") +
+#add the counties polygons, make the fill color light orange and the line color light gray
+  geom_sf(data = counties, 
+          fill = "#f2cc8f", 
+          color = "#787878") +
+#add the sites points, make the point size 4, shape #23 (diamond), and the fill color dark orange
+  geom_sf(data = stormsurge_sites, 
+          size = 4, shape = 23, 
+          fill = "#e07a5f") +
+#add the cities points, make the point size 2 and color a medium gray
+  geom_sf(data = parish, 
+          size = 2, 
+          color = "#383838") +
+#add state names using `geom_sf_text()`; make the font size 4, the text color medium gray, and the fontface bold
+  geom_sf_text(data = states, aes(label = ID), 
+               size = 4, 
+               color = "#383838", 
+               fontface = "bold") +
+#add the site name labels using `geom_sf_label_repel()`; "nudge" the labels a bit so they don't look too squished together
+  geom_sf_label_repel(data = stormsurge_sites, aes(label = name),
+                      nudge_x = c(0.5, 1), 
+                      nudge_y = c(1, 0)) +
+#add city labels using `geom_sf_text_repel()`; make the font color medium gray, font size 3, fontface italic, and nudge the labels a bit so they don't overlap with the counties polygons as much
+  geom_sf_text_repel(data = cities, aes(label = city), 
+                     color = "#383838", 
+                     size = 3, 
+                     fontface = "italic",
+                     nudge_x = c(0.5, 1, 1, -0.5),
+                     nudge_y = c(0, 0.1, 0.1, 0)) +
+#add a scale bar; color the lines and bars dark gray and fill the bar with bluish-green
+  annotation_scale(location = "bl", 
+                   width_hint = 0.4, 
+                   bar_cols = c("#383838", "#d8e2dc"), 
+                   line_col = "#383838", 
+                   text_col = "#383838") +
+#add a north-facing arrow; fill the arrow with dark gray and bluish-green and color the lines dark gray
+  annotation_north_arrow(location = "bl", 
+                         which_north = "true", 
+                         pad_y = unit(0.25, "in"), 
+                         style = north_arrow_fancy_orienteering(fill = c("#d8e2dc", "#383838"),
+                                                                line_col = "#383838", 
+                                                                text_col = "#383838")) +
+  coord_sf(xlim = c(-88.032338,-94.443539), 
+           ylim = c(28.264494,33.310300), 
+           expand = FALSE) +
+  labs(x = "Longitude", 
+       y = "Latitude", 
+       title = "Study Sites", 
+       subtitle = "Palm Beach County, Florida") +
+  theme(panel.background = element_rect(fill = "#d8e2dc"))
+```
