@@ -270,18 +270,12 @@ ggplot(Gulf_stormsurge, aes(y = Surge_m, fill = State)) +
   theme(legend.position = "none") 
 ```
 
-![](Capstone_-Data_-Analysis_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](Capstone_-Data_-Analysis_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
-``` r
 ggplot(Gulf_stormsurge, aes(y = Storm_Tide_m, fill = State)) +
-  geom_bar()+
-    facet_wrap(~ State, nrow = 1, labeller = label_wrap_gen(width = 12)) +
-  labs(
-    y = "Storm Tide Height (m) ",
-    title = "Comparision of Storm Tide Heights in States Located along the Gulf Coast") + 
-  theme(legend.position = "none") 
-```
+geom_bar()+ facet_wrap(\~ State, nrow = 1, labeller =
+label_wrap_gen(width = 12)) + labs( y = “Storm Tide Height (m)”, title =
+“Comparision of Storm Tide Heights in States Located along the Gulf
+Coast”) + theme(legend.position = “none”)
 
-    ## Warning: Removed 81 rows containing non-finite values (`stat_count()`).
-
-![](Capstone_-Data_-Analysis_files/figure-gfm/unnamed-chunk-7-2.png)<!-- -->
+\`\`\`
