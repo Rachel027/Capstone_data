@@ -17,7 +17,7 @@ library(dplyr)
 
 **Don't need hurricane due to being already completed**
 
-*Storm Surge Dataset* 
+*Storm Surge Dataset* i
 ```{r read files}
 stormsurge <- read_csv("globalpeaksurgedb.csv")
 Encrusting_organism <- read_csv("2017-2019 Encrusting organism count and density (1).csv")
@@ -135,7 +135,7 @@ library(sf)
 library(maps)
 library(tools)
 library(ggspatial)
-library(ggsflabel)
+
 ```
 
 ```{r}
@@ -144,23 +144,35 @@ LA_stormsurge <- Gulf_stormsurge %>%
 ```
 
 ```{r eval= FALSE}
+<<<<<<< HEAD
 stormsurge_sites <- tibble(longitude = c(-93.7001,-90.0506,-89.1708,-90.5914,-89.9017,-91.2081,-90.8349,-89.9873,-92.6301,-90.4231,-93.3300,-89.8672,-90.0689,-89.6786,-89.5297,-93.4525,-92.1075,-91.3833,-89.5189,-93.3442,-90.6712,-89.7565,-90.0292,-91.8772,-90.6633,-90.6537,-91.6683,-93.5625,-89.8576,-92.1469,-89.8576,-89.8576,-90.6693,-89.9873,-89.7274,-91.4206,-89.8576,-90.4268,-93.3433,-93.1837,-89.6060,-89.6183,-90.0370,-89.7659), latitude = c(29.7632,29.2097,29.0169,29.2542,29.5797,29.6886,29.2554,29.2633,29.5953,30.1075,29.7400,30.1275,30.3528,29.8551,29.3683,29.7697,29.7451,29.3667,29.3825,29.7622,29.2357,29.5450,30.0157,29.7161,29.2453,29.1627,29.7452,29.7608,30.0038,30.0038,29.5875,30.0038,30.0038,29.2305,29.2366,30.1733,29.5742,30.0038,30.1076,29.7683,29.7867,29.5858,29.5983,30.0310,29.5666), name = c(Site 1:45))
+=======
+stormsurge_sites <- tibble(longitude = c(-93.7001,-90.0506,-89.1708,-90.5914,-89.9017,-91.2081,-90.8349
+,-89.9873,-92.6301,-90.4231,-93.3300,-89.8672,-90.0689,-89.6786,-89.5297,-93.4525,-92.1075,-91.3833,-89.5189,-93.3442,-90.6712,-89.7565,-90.0292,-91.8772,-90.6633
+,-90.6537,-91.6683,-93.5625,-89.8576,-92.1469,-89.8576,-89.8576,-90.6693,-89.9873,-89.7274, -91.4206,-89.8576,-90.4268,-93.3433,-93.1837,-89.6060,-89.6183,-90.0370,-89.7659) +
+(latitude = c(29.7632,29.2097,29.0169,29.2542,29.5797,29.6886,29.2554,29.2633,29.5953,30.1075,29.7400,30.1275,30.3528,29.8551,29.3683,29.7697,29.7451,29.3667,29.3825,29.7622,29.2357,29.5450,30.0157,29.7161,29.2453,29.1627,29.7452,29.7608,30.0038,30.0038,29.5875,30.0038,30.0038,29.2305,29.2366,30.1733,29.5742,30.0038,30.1076,29.7683,29.7867,29.5858,29.5983,30.0310,29.5666)) +
+>>>>>>> c30076767490d051fa75682ec705baef39326bdf
 
-stormsurge_sites <- st_as_sf(LA_sites, coords = c("longitude", "latitude"), crs = 4326)
+stormsurge_sites <- st_as_sf(LA_sites, coords = c("longitude", "latitude"), crs = 4326) +
 
 states <- st_as_sf(maps::map("state", plot = FALSE, fill = TRUE)) %>%
-  mutate(ID = toTitleCase(ID))
+  mutate(ID = toTitleCase(ID)) +
 
 counties <- st_as_sf(maps::map("county", plot = FALSE, fill = TRUE)) %>%
+<<<<<<< HEAD
   filter(str_detect(ID, "louisiana")) %>%
   mutate(area = as.numeric(st_area(st_make_valid(geom))))
+=======
+  filter(str_detect(ID, "Louisiana")) %>%
+  mutate(area = as.numeric(st_area(st_make_valid(geom)))) +
+>>>>>>> c30076767490d051fa75682ec705baef39326bdf
 
 parish <- tibble(state = rep("Louisiana", 8), 
                  city = c("Cameron", "Vermilion", "Iberia", "St Mary", "Terrebonne", "Lafourche", "Plaquemines", "St Bernard"), 
                  latitude = c(29.797721,29.860141,	29.499263,29.502976, 29.229968, 29.69523,	29.324005,29.879791 ), 
-                 longitude = c( -93.325154,-92.381362,-91.753882,	-91.443469,-90.753281,-90.525782,-89.474218,-89.322695))
+                 longitude = c( -93.325154,-92.381362,-91.753882,	-91.443469,-90.753281,-90.525782,-89.474218,-89.322695)) +
 
-parish <- st_as_sf(parish, coords = c("longitude", "latitude"), crs = 4326)
+parish <- st_as_sf(parish, coords = c("longitude", "latitude"), crs = 4326) +
 
 
 ggplot() +
