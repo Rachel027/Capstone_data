@@ -28,7 +28,7 @@ library(dplyr)
 
 **Don’t need hurricane due to being already completed**
 
-*Storm Surge Dataset*
+*Storm Surge Dataset* i
 
 ``` r
 stormsurge <- read_csv("globalpeaksurgedb.csv")
@@ -365,76 +365,54 @@ LA_stormsurge <- Gulf_stormsurge %>%
 ```
 
 ``` r
-stormsurge_sites <- tibble(longitude = c(-93.7001,-90.0506,-89.1708,-90.5914,-89.9017,-91.2081,-90.8349,-89.9873,-92.6301,-90.4231,-93.3300,-89.8672,-90.0689,-89.6786,-89.5297,-93.4525,-92.1075,-91.3833,-89.5189,-93.3442,-90.6712,-89.7565,-90.0292,-91.8772,-90.6633,-90.6537,-91.6683,-93.5625,-89.8576,-92.1469,-89.8576,-89.8576,-90.6693,-89.9873,-89.7274,-91.4206,-89.8576,-90.4268,-93.3433,-93.1837,-89.6060,-89.6183,-90.0370,-89.7659), latitude = c(29.7632,29.2097,29.0169,29.2542,29.5797,29.6886,29.2554,29.2633,29.5953,30.1075,29.7400,30.1275,30.3528,29.8551,29.3683,29.7697,29.7451,29.3667,29.3825,29.7622,29.2357,29.5450,30.0157,29.7161,29.2453,29.1627,29.7452,29.7608,30.0038,30.0038,29.5875,30.0038,30.0038,29.2305,29.2366,30.1733,29.5742,30.0038,30.1076,29.7683,29.7867,29.5858,29.5983,30.0310,29.5666), name = c(Site 1:45))
-
-stormsurge_sites <- st_as_sf(LA_sites, coords = c("longitude", "latitude"), crs = 4326)
-
-states <- st_as_sf(maps::map("state", plot = FALSE, fill = TRUE)) %>%
-  mutate(ID = toTitleCase(ID))
-
-counties <- st_as_sf(maps::map("county", plot = FALSE, fill = TRUE)) %>%
-  filter(str_detect(ID, "louisiana")) %>%
-  mutate(area = as.numeric(st_area(st_make_valid(geom))))
-
-parish <- tibble(state = rep("Louisiana", 8), 
-                 city = c("Cameron", "Vermilion", "Iberia", "St Mary", "Terrebonne", "Lafourche", "Plaquemines", "St Bernard"), 
-                 latitude = c(29.797721,29.860141,  29.499263,29.502976, 29.229968, 29.69523,   29.324005,29.879791 ), 
-                 longitude = c( -93.325154,-92.381362,-91.753882,   -91.443469,-90.753281,-90.525782,-89.474218,-89.322695))
-
-parish <- st_as_sf(parish, coords = c("longitude", "latitude"), crs = 4326)
-
-
-ggplot() +
-#Add the states polygons and make the fill color light yellow-ish (I use hex codes to define colors)
-  geom_sf(data = states, 
-          fill = "#f4f1de") +
-#add the counties polygons, make the fill color light orange and the line color light gray
-  geom_sf(data = counties, 
-          fill = "#f2cc8f", 
-          color = "#787878") +
-#add the sites points, make the point size 4, shape #23 (diamond), and the fill color dark orange
-  geom_sf(data = stormsurge_sites, 
-          size = 4, shape = 23, 
-          fill = "#e07a5f") +
-#add the cities points, make the point size 2 and color a medium gray
-  geom_sf(data = parish, 
-          size = 2, 
-          color = "#383838") +
-#add state names using `geom_sf_text()`; make the font size 4, the text color medium gray, and the fontface bold
-  geom_sf_text(data = states, aes(label = ID), 
-               size = 4, 
-               color = "#383838", 
-               fontface = "bold") +
-#add the site name labels using `geom_sf_label_repel()`; "nudge" the labels a bit so they don't look too squished together
-  geom_sf_label_repel(data = stormsurge_sites, aes(label = name),
-                      nudge_x = c(0.5, 1), 
-                      nudge_y = c(1, 0)) +
-#add city labels using `geom_sf_text_repel()`; make the font color medium gray, font size 3, fontface italic, and nudge the labels a bit so they don't overlap with the counties polygons as much
-  geom_sf_text_repel(data = cities, aes(label = city), 
-                     color = "#383838", 
-                     size = 3, 
-                     fontface = "italic",
-                     nudge_x = c(0.5, 1, 1, -0.5),
-                     nudge_y = c(0, 0.1, 0.1, 0)) +
-#add a scale bar; color the lines and bars dark gray and fill the bar with bluish-green
-  annotation_scale(location = "bl", 
-                   width_hint = 0.4, 
-                   bar_cols = c("#383838", "#d8e2dc"), 
-                   line_col = "#383838", 
-                   text_col = "#383838") +
-#add a north-facing arrow; fill the arrow with dark gray and bluish-green and color the lines dark gray
-  annotation_north_arrow(location = "bl", 
-                         which_north = "true", 
-                         pad_y = unit(0.25, "in"), 
-                         style = north_arrow_fancy_orienteering(fill = c("#d8e2dc", "#383838"),
-                                                                line_col = "#383838", 
-                                                                text_col = "#383838")) +
-  coord_sf(xlim = c(-88.032338,-94.443539), 
-           ylim = c(28.264494,33.310300), 
-           expand = FALSE) +
-  labs(x = "Longitude", 
-       y = "Latitude", 
-       title = "Study Sites", 
-       subtitle = "Palm Beach County, Florida") +
-  theme(panel.background = element_rect(fill = "#d8e2dc"))
+surge_sites <- tibble(longitude = c(-89.1708,-90.6537,-90.0506,-90.6693,-90.6712,-89.9873,-90.6633,-90.5914,-90.8349,-89.9873,-91.3833,-89.5297,-89.5189,-89.7565,-89.7659,-91.4206,-89.9017,-89.606,-92.1469,-92.6301,-89.6183,-91.2081,-91.8772,-93.33,-92.1075,-91.6683,-93.5625,-93.3442,-93.7001,-93.3433,-93.4525,-93.1837,-89.6786,-89.8576,-89.8576,-89.8576,-89.8576,-90.0292,-90.037,-90.4231,-90.4268,-89.8672,-89.7274,-90.0689), latitude =c(29.0169,29.1627,29.2097,29.2305,29.2357,29.2366,29.2453,29.2542,29.2554,29.2633,29.3667,29.3683,29.3825,29.545,29.5666,29.5742,29.5797,29.5858,29.5875,29.5953,29.5983,29.6886,29.7161,29.74,29.7451,29.7452,29.7608,29.7622,29.7632,29.7683,29.7697,29.7867,29.8551,30.0038,30.0038,30.0038,30.0038,30.0157,30.031,30.1075,30.1076,30.1275,30.1733,30.3528), site_num = 1:45, site_name = paste("Site", site_num)
 ```
+
+``` r
+surge_sites <- st_as_sf(surge_sites, coords = c("longitude", "latitude"), crs = 4326)
+```
+
+parish \<- tibble(state = rep(“Louisiana”, 6), city = c(“Cameron”,
+“Vermilion”, “Iberia”, “St Mary”, “Terrebonne”, “Lafourche”,
+“Plaquemines”, “St Bernard”), latitude =
+c(29.797721,29.860141,29.499263,29.502976, 29.229968, 29.69523,
+29.324005,29.879791 ), longitude = c( -93.325154,-92.381362,-91.753882,
+-91.443469,-90.753281,-90.525782,-89.474218,-89.322695)) +
+
+parish \<- st_as_sf(parish, coords = c(“longitude”, “latitude”), crs =
+4326) +
+
+ggplot() + \#Add the states polygons and make the fill color light
+yellow-ish (I use hex codes to define colors) geom_sf(data = states,
+fill = “\#f4f1de”) + \#add the counties polygons, make the fill color
+light orange and the line color light gray geom_sf(data = counties, fill
+= “\#f2cc8f”, color = “\#787878”) + \#add the sites points, make the
+point size 4, shape \#23 (diamond), and the fill color dark orange
+geom_sf(data = stormsurge_sites, size = 4, shape = 23, fill =
+“\#e07a5f”) + \#add the cities points, make the point size 2 and color a
+medium gray geom_sf(data = parish, size = 2, color = “\#383838”) + \#add
+state names using `geom_sf_text()`; make the font size 4, the text color
+medium gray, and the fontface bold geom_sf_text(data = states, aes(label
+= ID), size = 4, color = “\#383838”, fontface = “bold”) + \#add the site
+name labels using `geom_sf_label_repel()`; “nudge” the labels a bit so
+they don’t look too squished together geom_sf_label_repel(data =
+stormsurge_sites, aes(label = name), nudge_x = c(0.5, 1), nudge_y = c(1,
+0)) + \#add city labels using `geom_sf_text_repel()`; make the font
+color medium gray, font size 3, fontface italic, and nudge the labels a
+bit so they don’t overlap with the counties polygons as much
+geom_sf_text_repel(data = cities, aes(label = city), color = “\#383838”,
+size = 3, fontface = “italic”, nudge_x = c(0.5, 1, 1, -0.5), nudge_y =
+c(0, 0.1, 0.1, 0)) + \#add a scale bar; color the lines and bars dark
+gray and fill the bar with bluish-green annotation_scale(location =
+“bl”, width_hint = 0.4, bar_cols = c(“\#383838”, “\#d8e2dc”), line_col =
+“\#383838”, text_col = “\#383838”) + \#add a north-facing arrow; fill
+the arrow with dark gray and bluish-green and color the lines dark gray
+annotation_north_arrow(location = “bl”, which_north = “true”, pad_y =
+unit(0.25, “in”), style = north_arrow_fancy_orienteering(fill =
+c(“\#d8e2dc”, “\#383838”), line_col = “\#383838”, text_col =
+“\#383838”)) + coord_sf(xlim = c(-88.032338,-94.443539), ylim =
+c(28.264494,33.310300), expand = FALSE) + labs(x = “Longitude”, y =
+“Latitude”, title = “Study Sites”, subtitle = “Palm Beach County,
+Florida”) + theme(panel.background = element_rect(fill = “\#d8e2dc”))
+
+\`\`\`
